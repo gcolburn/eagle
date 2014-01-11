@@ -14,8 +14,8 @@
 <layer number="18" name="Vias" color="2" fill="1" visible="no" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="no" active="yes"/>
-<layer number="21" name="tPlace" color="16" fill="1" visible="yes" active="yes"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="16" fill="1" visible="no" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
@@ -43,7 +43,7 @@
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
@@ -63,40 +63,40 @@
 <wire x1="-2.075" y1="-2.075" x2="2.075" y2="-2.075" width="0.127" layer="51"/>
 <wire x1="2.075" y1="-2.075" x2="2.075" y2="2.075" width="0.127" layer="51"/>
 <wire x1="2.075" y1="2.075" x2="-2.075" y2="2.075" width="0.127" layer="51"/>
-<smd name="P$24" x="-1.975" y="-1.25" dx="0.78" dy="0.28" layer="1" roundness="100"/>
-<smd name="P$23" x="-1.975" y="-0.75" dx="0.78" dy="0.28" layer="1" roundness="100"/>
-<smd name="P$22" x="-1.975" y="-0.25" dx="0.78" dy="0.28" layer="1" roundness="100"/>
-<smd name="P$21" x="-1.975" y="0.25" dx="0.78" dy="0.28" layer="1" roundness="100"/>
-<smd name="P$20" x="-1.975" y="0.75" dx="0.78" dy="0.28" layer="1" roundness="100"/>
-<smd name="P$19" x="-1.975" y="1.25" dx="0.78" dy="0.28" layer="1" roundness="100"/>
-<smd name="P$7" x="1.975" y="-1.25" dx="0.78" dy="0.28" layer="1" roundness="100"/>
-<smd name="P$8" x="1.975" y="-0.75" dx="0.78" dy="0.28" layer="1" roundness="100"/>
-<smd name="P$9" x="1.975" y="-0.25" dx="0.78" dy="0.28" layer="1" roundness="100"/>
-<smd name="P$10" x="1.975" y="0.25" dx="0.78" dy="0.28" layer="1" roundness="100"/>
-<smd name="P$11" x="1.975" y="0.75" dx="0.78" dy="0.28" layer="1" roundness="100"/>
-<smd name="P$12" x="1.975" y="1.25" dx="0.78" dy="0.28" layer="1" roundness="100"/>
-<smd name="P$1" x="-1.25" y="-1.975" dx="0.78" dy="0.28" layer="1" roundness="100" rot="R270"/>
-<smd name="P$2" x="-0.75" y="-1.975" dx="0.78" dy="0.28" layer="1" roundness="100" rot="R270"/>
-<smd name="P$3" x="-0.25" y="-1.975" dx="0.78" dy="0.28" layer="1" roundness="100" rot="R270"/>
-<smd name="P$4" x="0.25" y="-1.975" dx="0.78" dy="0.28" layer="1" roundness="100" rot="R270"/>
-<smd name="P$5" x="0.75" y="-1.975" dx="0.78" dy="0.28" layer="1" roundness="100" rot="R270"/>
-<smd name="P$6" x="1.25" y="-1.975" dx="0.78" dy="0.28" layer="1" roundness="100" rot="R270"/>
-<smd name="P$18" x="-1.25" y="1.975" dx="0.78" dy="0.28" layer="1" roundness="100" rot="R270"/>
-<smd name="P$17" x="-0.75" y="1.975" dx="0.78" dy="0.28" layer="1" roundness="100" rot="R270"/>
-<smd name="P$16" x="-0.25" y="1.975" dx="0.78" dy="0.28" layer="1" roundness="100" rot="R270"/>
-<smd name="P$15" x="0.25" y="1.975" dx="0.78" dy="0.28" layer="1" roundness="100" rot="R270"/>
-<smd name="P$14" x="0.75" y="1.975" dx="0.78" dy="0.28" layer="1" roundness="100" rot="R270"/>
-<smd name="P$13" x="1.25" y="1.975" dx="0.78" dy="0.28" layer="1" roundness="100" rot="R270"/>
+<smd name="P$24" x="-1.25" y="1.975" dx="0.78" dy="0.28" layer="1" roundness="100" rot="R270"/>
+<smd name="P$23" x="-0.75" y="1.975" dx="0.78" dy="0.28" layer="1" roundness="100" rot="R270"/>
+<smd name="P$22" x="-0.25" y="1.975" dx="0.78" dy="0.28" layer="1" roundness="100" rot="R270"/>
+<smd name="P$21" x="0.25" y="1.975" dx="0.78" dy="0.28" layer="1" roundness="100" rot="R270"/>
+<smd name="P$20" x="0.75" y="1.975" dx="0.78" dy="0.28" layer="1" roundness="100" rot="R270"/>
+<smd name="P$19" x="1.25" y="1.975" dx="0.78" dy="0.28" layer="1" roundness="100" rot="R270"/>
+<smd name="P$7" x="-1.25" y="-1.975" dx="0.78" dy="0.28" layer="1" roundness="100" rot="R270"/>
+<smd name="P$8" x="-0.75" y="-1.975" dx="0.78" dy="0.28" layer="1" roundness="100" rot="R270"/>
+<smd name="P$9" x="-0.25" y="-1.975" dx="0.78" dy="0.28" layer="1" roundness="100" rot="R270"/>
+<smd name="P$10" x="0.25" y="-1.975" dx="0.78" dy="0.28" layer="1" roundness="100" rot="R270"/>
+<smd name="P$11" x="0.75" y="-1.975" dx="0.78" dy="0.28" layer="1" roundness="100" rot="R270"/>
+<smd name="P$12" x="1.25" y="-1.975" dx="0.78" dy="0.28" layer="1" roundness="100" rot="R270"/>
+<smd name="P$1" x="-1.975" y="1.25" dx="0.78" dy="0.28" layer="1" roundness="100" rot="R180"/>
+<smd name="P$2" x="-1.975" y="0.75" dx="0.78" dy="0.28" layer="1" roundness="100" rot="R180"/>
+<smd name="P$3" x="-1.975" y="0.25" dx="0.78" dy="0.28" layer="1" roundness="100" rot="R180"/>
+<smd name="P$4" x="-1.975" y="-0.25" dx="0.78" dy="0.28" layer="1" roundness="100" rot="R180"/>
+<smd name="P$5" x="-1.975" y="-0.75" dx="0.78" dy="0.28" layer="1" roundness="100" rot="R180"/>
+<smd name="P$6" x="-1.975" y="-1.25" dx="0.78" dy="0.28" layer="1" roundness="100" rot="R180"/>
+<smd name="P$18" x="1.975" y="1.25" dx="0.78" dy="0.28" layer="1" roundness="100" rot="R180"/>
+<smd name="P$17" x="1.975" y="0.75" dx="0.78" dy="0.28" layer="1" roundness="100" rot="R180"/>
+<smd name="P$16" x="1.975" y="0.25" dx="0.78" dy="0.28" layer="1" roundness="100" rot="R180"/>
+<smd name="P$15" x="1.975" y="-0.25" dx="0.78" dy="0.28" layer="1" roundness="100" rot="R180"/>
+<smd name="P$14" x="1.975" y="-0.75" dx="0.78" dy="0.28" layer="1" roundness="100" rot="R180"/>
+<smd name="P$13" x="1.975" y="-1.25" dx="0.78" dy="0.28" layer="1" roundness="100" rot="R180"/>
 <smd name="P$25" x="0" y="0" dx="2.45" dy="2.45" layer="1"/>
-<circle x="-1.8" y="-2.5" radius="0.3" width="0" layer="100"/>
-<wire x1="-2" y1="3" x2="-2.5" y2="3" width="0.127" layer="100"/>
-<wire x1="-2.5" y1="3" x2="-2.5" y2="2.5" width="0.127" layer="100"/>
-<wire x1="1.9" y1="3" x2="2.4" y2="3" width="0.127" layer="100"/>
-<wire x1="2.4" y1="3" x2="2.4" y2="2.5" width="0.127" layer="100"/>
-<wire x1="1.8" y1="-3" x2="2.4" y2="-3" width="0.127" layer="100"/>
-<wire x1="2.4" y1="-3" x2="2.4" y2="-2.4" width="0.127" layer="100"/>
-<wire x1="-1.9" y1="-3" x2="-2.5" y2="-3" width="0.127" layer="100"/>
-<wire x1="-2.5" y1="-3" x2="-2.5" y2="-2.3" width="0.127" layer="100"/>
+<circle x="-1.94" y="-2.665" radius="0.3" width="0" layer="100"/>
+<wire x1="-1.7" y1="2.2" x2="-2.2" y2="2.2" width="0.127" layer="100"/>
+<wire x1="-2.2" y1="2.2" x2="-2.2" y2="1.7" width="0.127" layer="100"/>
+<wire x1="1.7" y1="2.2" x2="2.2" y2="2.2" width="0.127" layer="100"/>
+<wire x1="2.2" y1="2.2" x2="2.2" y2="1.7" width="0.127" layer="100"/>
+<wire x1="-2.2" y1="-1.7" x2="-2.2" y2="-2.2" width="0.127" layer="100"/>
+<wire x1="-2.2" y1="-2.2" x2="-1.7" y2="-2.2" width="0.127" layer="100"/>
+<wire x1="1.7" y1="-2.2" x2="2.2" y2="-2.2" width="0.127" layer="100"/>
+<wire x1="2.2" y1="-2.2" x2="2.2" y2="-1.7" width="0.127" layer="100"/>
 </package>
 </packages>
 <symbols>

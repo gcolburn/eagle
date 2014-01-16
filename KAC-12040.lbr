@@ -106,37 +106,75 @@ http://www.ti.com/lit/ds/symlink/txs02612.pdf</description>
 <symbol name="TXS02612">
 <description>Schematic component for the TXS02612 SDIO multiplexer. Datasheet is available at:
 http://www.ti.com/lit/ds/symlink/txs02612.pdf</description>
-<wire x1="-15.24" y1="15.24" x2="15.24" y2="15.24" width="0.254" layer="94"/>
-<wire x1="15.24" y1="15.24" x2="15.24" y2="-25.4" width="0.254" layer="94"/>
-<wire x1="15.24" y1="-25.4" x2="-15.24" y2="-25.4" width="0.254" layer="94"/>
-<wire x1="-15.24" y1="-25.4" x2="-15.24" y2="15.24" width="0.254" layer="94"/>
-<pin name="SEL" x="-17.78" y="-7.62" length="short" direction="in"/>
-<pin name="CMD_A" x="-17.78" y="10.16" length="short"/>
-<pin name="DAT0_A" x="-17.78" y="5.08" length="short"/>
-<pin name="DAT1_A" x="-17.78" y="2.54" length="short"/>
-<pin name="DAT2_A" x="-17.78" y="0" length="short"/>
-<pin name="DAT3_A" x="-17.78" y="-2.54" length="short"/>
-<pin name="CMD_B0" x="17.78" y="10.16" length="short" rot="R180"/>
-<pin name="DAT0_B0" x="17.78" y="5.08" length="short" rot="R180"/>
-<pin name="DAT1_B0" x="17.78" y="2.54" length="short" rot="R180"/>
-<pin name="DAT2_B0" x="17.78" y="0" length="short" rot="R180"/>
-<pin name="DAT3_B0" x="17.78" y="-2.54" length="short" rot="R180"/>
-<pin name="CMD_B1" x="17.78" y="-10.16" length="short" rot="R180"/>
-<pin name="DAT0_B1" x="17.78" y="-15.24" length="short" rot="R180"/>
-<pin name="DAT1_B1" x="17.78" y="-17.78" length="short" rot="R180"/>
-<pin name="DAT2_B1" x="17.78" y="-20.32" length="short" rot="R180"/>
-<pin name="DAT3_B1" x="17.78" y="-22.86" length="short" rot="R180"/>
-<pin name="CLK_A" x="-17.78" y="12.7" length="short" direction="in" function="clk"/>
-<pin name="CLK_B0" x="17.78" y="12.7" length="short" direction="out" function="clk" rot="R180"/>
-<pin name="CLK_B1" x="17.78" y="-7.62" length="short" direction="out" function="clk" rot="R180"/>
-<pin name="VCC_A" x="-2.54" y="17.78" length="short" direction="pwr" rot="R270"/>
-<pin name="VCC_B0" x="0" y="17.78" length="short" direction="pwr" rot="R270"/>
-<pin name="VCC_B1" x="2.54" y="17.78" length="short" direction="pwr" rot="R270"/>
-<pin name="GND@11" x="0" y="-27.94" length="short" direction="pwr" rot="R90"/>
-<pin name="GND@2" x="-2.54" y="-27.94" length="short" direction="pwr" rot="R90"/>
+<wire x1="-15.24" y1="20.32" x2="15.24" y2="20.32" width="0.254" layer="94"/>
+<wire x1="15.24" y1="20.32" x2="15.24" y2="-20.32" width="0.254" layer="94"/>
+<wire x1="15.24" y1="-20.32" x2="-15.24" y2="-20.32" width="0.254" layer="94"/>
+<wire x1="-15.24" y1="-20.32" x2="-15.24" y2="20.32" width="0.254" layer="94"/>
+<pin name="SEL" x="-17.78" y="-2.54" length="short" direction="in"/>
+<pin name="CMD_A" x="-17.78" y="15.24" length="short"/>
+<pin name="DAT0_A" x="-17.78" y="10.16" length="short"/>
+<pin name="DAT1_A" x="-17.78" y="7.62" length="short"/>
+<pin name="DAT2_A" x="-17.78" y="5.08" length="short"/>
+<pin name="DAT3_A" x="-17.78" y="2.54" length="short"/>
+<pin name="CMD_B0" x="17.78" y="15.24" length="short" rot="R180"/>
+<pin name="DAT0_B0" x="17.78" y="10.16" length="short" rot="R180"/>
+<pin name="DAT1_B0" x="17.78" y="7.62" length="short" rot="R180"/>
+<pin name="DAT2_B0" x="17.78" y="5.08" length="short" rot="R180"/>
+<pin name="DAT3_B0" x="17.78" y="2.54" length="short" rot="R180"/>
+<pin name="CMD_B1" x="17.78" y="-5.08" length="short" rot="R180"/>
+<pin name="DAT0_B1" x="17.78" y="-10.16" length="short" rot="R180"/>
+<pin name="DAT1_B1" x="17.78" y="-12.7" length="short" rot="R180"/>
+<pin name="DAT2_B1" x="17.78" y="-15.24" length="short" rot="R180"/>
+<pin name="DAT3_B1" x="17.78" y="-17.78" length="short" rot="R180"/>
+<pin name="CLK_A" x="-17.78" y="17.78" length="short" direction="in" function="clk"/>
+<pin name="CLK_B0" x="17.78" y="17.78" length="short" direction="out" function="clk" rot="R180"/>
+<pin name="CLK_B1" x="17.78" y="-2.54" length="short" direction="out" function="clk" rot="R180"/>
+<pin name="VCC_A" x="-2.54" y="22.86" length="short" direction="pwr" rot="R270"/>
+<pin name="VCC_B0" x="0" y="22.86" length="short" direction="pwr" rot="R270"/>
+<pin name="VCC_B1" x="2.54" y="22.86" length="short" direction="pwr" rot="R270"/>
+<pin name="GND@11" x="0" y="-22.86" length="short" direction="pwr" rot="R90"/>
+<pin name="GND@2" x="-2.54" y="-22.86" length="short" direction="pwr" rot="R90"/>
 </symbol>
 </symbols>
 <devicesets>
+<deviceset name="TXS02612">
+<gates>
+<gate name="G$1" symbol="TXS02612" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="S-PWQFN-N24">
+<connects>
+<connect gate="G$1" pin="CLK_A" pad="P$9"/>
+<connect gate="G$1" pin="CLK_B0" pad="P$19"/>
+<connect gate="G$1" pin="CLK_B1" pad="P$13"/>
+<connect gate="G$1" pin="CMD_A" pad="P$4"/>
+<connect gate="G$1" pin="CMD_B0" pad="P$20"/>
+<connect gate="G$1" pin="CMD_B1" pad="P$12"/>
+<connect gate="G$1" pin="DAT0_A" pad="P$6"/>
+<connect gate="G$1" pin="DAT0_B0" pad="P$18"/>
+<connect gate="G$1" pin="DAT0_B1" pad="P$14"/>
+<connect gate="G$1" pin="DAT1_A" pad="P$7"/>
+<connect gate="G$1" pin="DAT1_B0" pad="P$16"/>
+<connect gate="G$1" pin="DAT1_B1" pad="P$15"/>
+<connect gate="G$1" pin="DAT2_A" pad="P$1"/>
+<connect gate="G$1" pin="DAT2_B0" pad="P$23"/>
+<connect gate="G$1" pin="DAT2_B1" pad="P$8"/>
+<connect gate="G$1" pin="DAT3_A" pad="P$3"/>
+<connect gate="G$1" pin="DAT3_B0" pad="P$22"/>
+<connect gate="G$1" pin="DAT3_B1" pad="P$10"/>
+<connect gate="G$1" pin="GND@11" pad="P$11"/>
+<connect gate="G$1" pin="GND@2" pad="P$2"/>
+<connect gate="G$1" pin="SEL" pad="P$24"/>
+<connect gate="G$1" pin="VCC_A" pad="P$5"/>
+<connect gate="G$1" pin="VCC_B0" pad="P$21"/>
+<connect gate="G$1" pin="VCC_B1" pad="P$17"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </drawing>

@@ -103,9 +103,7 @@ http://www.ti.com/lit/ds/symlink/txs02612.pdf</description>
 </package>
 <package name="KAC-12040-400T4">
 <wire x1="-17.78" y1="19.05" x2="17.78" y2="19.05" width="0.127" layer="51"/>
-<wire x1="17.78" y1="19.05" x2="17.78" y2="-19.05" width="0.127" layer="51"/>
 <wire x1="17.78" y1="-19.05" x2="-17.78" y2="-19.05" width="0.127" layer="51"/>
-<wire x1="-17.78" y1="-19.05" x2="-17.78" y2="19.05" width="0.127" layer="51"/>
 <pad name="A1" x="-16.51" y="17.78" drill="0.36068125"/>
 <pad name="A2" x="-15.24" y="17.78" drill="0.36068125"/>
 <pad name="A3" x="-13.97" y="17.78" drill="0.36068125"/>
@@ -373,6 +371,12 @@ http://www.ti.com/lit/ds/symlink/txs02612.pdf</description>
 <pad name="AE24" x="12.7" y="-17.78" drill="0.36068125"/>
 <pad name="AE25" x="13.97" y="-17.78" drill="0.36068125"/>
 <pad name="AE26" x="15.24" y="-17.78" drill="0.36068125"/>
+<wire x1="-17.78" y1="19.05" x2="-17.78" y2="2.0066" width="0.127" layer="51"/>
+<wire x1="-17.78" y1="2.0066" x2="-17.78" y2="-2.0066" width="0.127" layer="51" curve="-180"/>
+<wire x1="-17.78" y1="-2.0066" x2="-17.78" y2="-19.05" width="0.127" layer="51"/>
+<wire x1="17.78" y1="19.05" x2="17.78" y2="2.0066" width="0.127" layer="51"/>
+<wire x1="17.78" y1="2.0066" x2="17.78" y2="-2.0066" width="0.127" layer="51" curve="180"/>
+<wire x1="17.78" y1="-2.0066" x2="17.78" y2="-19.05" width="0.127" layer="51"/>
 </package>
 </packages>
 <symbols>

@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.1" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -43,7 +43,7 @@
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="14" fill="0" visible="yes" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
@@ -55,6 +55,7 @@
 <layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="100" name="tSilk" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="101" name="bSilk" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="102" name="Sensor" color="14" fill="8" visible="yes" active="yes"/>
 </layers>
 <library>
 <packages>
@@ -102,8 +103,8 @@ http://www.ti.com/lit/ds/symlink/txs02612.pdf</description>
 <rectangle x1="-3.22" y1="1.48" x2="-2.5" y2="2.2" layer="43" rot="R270"/>
 </package>
 <package name="KAC-12040-400T4">
-<wire x1="-17.78" y1="19.05" x2="17.78" y2="19.05" width="0.127" layer="51"/>
-<wire x1="17.78" y1="-19.05" x2="-17.78" y2="-19.05" width="0.127" layer="51"/>
+<wire x1="-17.78" y1="19.05" x2="17.78" y2="19.05" width="0.127" layer="21"/>
+<wire x1="17.78" y1="-19.05" x2="-17.78" y2="-19.05" width="0.127" layer="21"/>
 <pad name="A1" x="-16.51" y="17.78" drill="0.36068125"/>
 <pad name="A2" x="-15.24" y="17.78" drill="0.36068125"/>
 <pad name="A3" x="-13.97" y="17.78" drill="0.36068125"/>
@@ -371,12 +372,21 @@ http://www.ti.com/lit/ds/symlink/txs02612.pdf</description>
 <pad name="AE24" x="12.7" y="-17.78" drill="0.36068125"/>
 <pad name="AE25" x="13.97" y="-17.78" drill="0.36068125"/>
 <pad name="AE26" x="15.24" y="-17.78" drill="0.36068125"/>
-<wire x1="-17.78" y1="19.05" x2="-17.78" y2="2.0066" width="0.127" layer="51"/>
-<wire x1="-17.78" y1="2.0066" x2="-17.78" y2="-2.0066" width="0.127" layer="51" curve="-180"/>
-<wire x1="-17.78" y1="-2.0066" x2="-17.78" y2="-19.05" width="0.127" layer="51"/>
-<wire x1="17.78" y1="19.05" x2="17.78" y2="2.0066" width="0.127" layer="51"/>
-<wire x1="17.78" y1="2.0066" x2="17.78" y2="-2.0066" width="0.127" layer="51" curve="180"/>
-<wire x1="17.78" y1="-2.0066" x2="17.78" y2="-19.05" width="0.127" layer="51"/>
+<wire x1="-17.78" y1="19.05" x2="-17.78" y2="2.0066" width="0.127" layer="21"/>
+<wire x1="-17.78" y1="2.0066" x2="-17.78" y2="-2.0066" width="0.127" layer="21" curve="-180"/>
+<wire x1="-17.78" y1="-2.0066" x2="-17.78" y2="-19.05" width="0.127" layer="21"/>
+<wire x1="17.78" y1="19.05" x2="17.78" y2="2.0066" width="0.127" layer="21"/>
+<wire x1="17.78" y1="2.0066" x2="17.78" y2="-2.0066" width="0.127" layer="21" curve="180"/>
+<wire x1="17.78" y1="-2.0066" x2="17.78" y2="-19.05" width="0.127" layer="21"/>
+<wire x1="-15.24" y1="11.43" x2="15.24" y2="11.43" width="0.127" layer="21"/>
+<wire x1="15.24" y1="11.43" x2="15.24" y2="-11.43" width="0.127" layer="21"/>
+<wire x1="15.24" y1="-11.43" x2="-15.24" y2="-11.43" width="0.127" layer="21"/>
+<wire x1="-15.24" y1="-11.43" x2="-15.24" y2="11.43" width="0.127" layer="21"/>
+<rectangle x1="-9.4" y1="-7.05" x2="9.4" y2="7.05" layer="102"/>
+<wire x1="-21.25" y1="19.05" x2="21.25" y2="19.05" width="0.127" layer="102"/>
+<wire x1="21.25" y1="19.05" x2="21.25" y2="-19.05" width="0.127" layer="102"/>
+<wire x1="21.25" y1="-19.05" x2="-21.25" y2="-19.05" width="0.127" layer="102"/>
+<wire x1="-21.25" y1="-19.05" x2="-21.25" y2="19.05" width="0.127" layer="102"/>
 </package>
 </packages>
 <symbols>

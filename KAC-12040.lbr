@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.1" altunitdist="mm" altunit="mm"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -14,7 +14,7 @@
 <layer number="18" name="Vias" color="2" fill="1" visible="no" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="21" name="tPlace" color="16" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
@@ -103,6 +103,8 @@ http://www.ti.com/lit/ds/symlink/txs02612.pdf</description>
 <rectangle x1="-3.22" y1="1.48" x2="-2.5" y2="2.2" layer="43" rot="R270"/>
 </package>
 <package name="KAC-12040-400T4">
+<description>Package for Andon Socket 10-29-18A-267-400T4-R27-L14 Through Hole socket for the KAC-12040 sensor. 
+The sensor ceramic footprint and active area (4000x3000 pixels) are drawn as well for placement.</description>
 <wire x1="-17.78" y1="19.05" x2="17.78" y2="19.05" width="0.127" layer="21"/>
 <wire x1="17.78" y1="-19.05" x2="-17.78" y2="-19.05" width="0.127" layer="21"/>
 <pad name="A1" x="-16.51" y="17.78" drill="0.36068125"/>
@@ -387,6 +389,15 @@ http://www.ti.com/lit/ds/symlink/txs02612.pdf</description>
 <wire x1="21.25" y1="19.05" x2="21.25" y2="-19.05" width="0.127" layer="102"/>
 <wire x1="21.25" y1="-19.05" x2="-21.25" y2="-19.05" width="0.127" layer="102"/>
 <wire x1="-21.25" y1="-19.05" x2="-21.25" y2="19.05" width="0.127" layer="102"/>
+<wire x1="-17.9" y1="16" x2="-17.9" y2="19.15" width="0.127" layer="100"/>
+<wire x1="-17.9" y1="19.15" x2="-14.75" y2="19.15" width="0.127" layer="100"/>
+<wire x1="17.9" y1="16" x2="17.9" y2="19.15" width="0.127" layer="100"/>
+<wire x1="17.9" y1="19.15" x2="14.75" y2="19.15" width="0.127" layer="100"/>
+<wire x1="14.75" y1="-19.2" x2="17.9" y2="-19.2" width="0.127" layer="100"/>
+<wire x1="17.9" y1="-19.2" x2="17.9" y2="-16.05" width="0.127" layer="100"/>
+<wire x1="-17.9" y1="-19.2" x2="-17.9" y2="-16.05" width="0.127" layer="100"/>
+<wire x1="-17.8" y1="-19.2" x2="-14.65" y2="-19.2" width="0.127" layer="100"/>
+<circle x="-19" y="18.1" radius="0.721109375" width="0.127" layer="100"/>
 </package>
 </packages>
 <symbols>
@@ -443,31 +454,33 @@ http://www.ti.com/lit/ds/symlink/txs02612.pdf</description>
 <pin name="LVDS_5_P" x="20.32" y="-2.54" length="middle" direction="out" rot="R180"/>
 <pin name="LVDS_5_N" x="20.32" y="-5.08" length="middle" direction="out" function="dot" rot="R180"/>
 <text x="-15.24" y="20.32" size="1.4224" layer="94">&gt;NAME</text>
+<pin name="LVDS_6_P" x="20.32" y="-10.16" length="middle" direction="out" rot="R180"/>
+<pin name="LVDS_6_N" x="20.32" y="-12.7" length="middle" direction="out" function="dot" rot="R180"/>
 </symbol>
 <symbol name="KAC-12040-CTL">
-<wire x1="-15.24" y1="10.16" x2="15.24" y2="10.16" width="0.254" layer="94"/>
-<wire x1="15.24" y1="10.16" x2="15.24" y2="-12.7" width="0.254" layer="94"/>
-<wire x1="15.24" y1="-12.7" x2="-15.24" y2="-12.7" width="0.254" layer="94"/>
-<wire x1="-15.24" y1="-12.7" x2="-15.24" y2="10.16" width="0.254" layer="94"/>
+<wire x1="-22.86" y1="10.16" x2="22.86" y2="10.16" width="0.254" layer="94"/>
+<wire x1="22.86" y1="10.16" x2="22.86" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="22.86" y1="-12.7" x2="-22.86" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="-22.86" y1="-12.7" x2="-22.86" y2="10.16" width="0.254" layer="94"/>
 <text x="-7.62" y="5.08" size="1.778" layer="94">KAC-12040 CTL</text>
-<pin name="SYS_RESET_N" x="-20.32" y="2.54" length="middle" direction="in"/>
-<pin name="SPI_CLK" x="20.32" y="-2.54" length="middle" direction="in" function="clk" rot="R180"/>
-<pin name="SPI_IN" x="20.32" y="-7.62" length="middle" direction="in" rot="R180"/>
-<pin name="SPI_OUT" x="20.32" y="-10.16" length="middle" direction="out" rot="R180"/>
-<pin name="CLK_IN_1" x="-20.32" y="-2.54" length="middle" direction="in" function="clk"/>
-<pin name="SPI_EN" x="20.32" y="2.54" length="middle" direction="in" rot="R180"/>
-<pin name="CLK_IN_2" x="-20.32" y="-5.08" length="middle" direction="in" function="clk"/>
-<pin name="TRIGGER" x="-20.32" y="-10.16" length="middle" direction="in"/>
+<pin name="SYS_RESET_N@AB09" x="-27.94" y="2.54" length="middle" direction="in"/>
+<pin name="SPI_CLK@AA05" x="27.94" y="-2.54" length="middle" direction="in" function="clk" rot="R180"/>
+<pin name="SPI_IN@AA08" x="27.94" y="-7.62" length="middle" direction="in" rot="R180"/>
+<pin name="SPI_OUT@AA07" x="27.94" y="-10.16" length="middle" direction="out" rot="R180"/>
+<pin name="CLK_IN_1@E07" x="-27.94" y="-2.54" length="middle" direction="in" function="clk"/>
+<pin name="SPI_EN@AA06" x="27.94" y="2.54" length="middle" direction="in" rot="R180"/>
+<pin name="CLK_IN_2@D08" x="-27.94" y="-5.08" length="middle" direction="in" function="clk"/>
+<pin name="TRIGGER@AB08" x="-27.94" y="-10.16" length="middle" direction="in"/>
 </symbol>
 <symbol name="KAC-12040-REF_OUT">
-<wire x1="-20.32" y1="10.16" x2="22.86" y2="10.16" width="0.254" layer="94"/>
-<wire x1="22.86" y1="10.16" x2="22.86" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="22.86" y1="-7.62" x2="-20.32" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="-20.32" y1="-7.62" x2="-20.32" y2="10.16" width="0.254" layer="94"/>
-<pin name="FRAME_EN_OUT" x="-25.4" y="0" length="middle" direction="out"/>
-<pin name="LINE_EN_OUT" x="-25.4" y="-2.54" length="middle" direction="out"/>
-<pin name="MECH_SHUT_OUT" x="27.94" y="0" length="middle" direction="out" rot="R180"/>
-<pin name="FLASH_OUT" x="27.94" y="-2.54" length="middle" direction="out" rot="R180"/>
+<wire x1="-25.4" y1="10.16" x2="30.48" y2="10.16" width="0.254" layer="94"/>
+<wire x1="30.48" y1="10.16" x2="30.48" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="30.48" y1="-7.62" x2="-25.4" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-25.4" y1="-7.62" x2="-25.4" y2="10.16" width="0.254" layer="94"/>
+<pin name="FRAME_EN_OUT@E05" x="-30.48" y="0" length="middle" direction="out"/>
+<pin name="LINE_EN_OUT@E06" x="-30.48" y="-2.54" length="middle" direction="out"/>
+<pin name="MECH_SHUT_OUT@AB07" x="35.56" y="0" length="middle" direction="out" rot="R180"/>
+<pin name="FLASH_OUT@AB06" x="35.56" y="-2.54" length="middle" direction="out" rot="R180"/>
 <text x="-10.16" y="5.08" size="1.778" layer="94">KAC-12040-REF_OUT</text>
 </symbol>
 <symbol name="KAC-12040-BIAS">
@@ -656,6 +669,299 @@ http://www.ti.com/lit/ds/symlink/txs02612.pdf</description>
 <connect gate="G$1" pin="VCC_A" pad="P$5"/>
 <connect gate="G$1" pin="VCC_B0" pad="P$21"/>
 <connect gate="G$1" pin="VCC_B1" pad="P$17"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="KAC-12040">
+<gates>
+<gate name="G$1" symbol="KAC-12040-BIAS" x="0" y="35.56"/>
+<gate name="G$2" symbol="KAC-12040-CTL" x="-53.34" y="33.02"/>
+<gate name="G$3" symbol="KAC-12040-NC" x="33.02" y="30.48"/>
+<gate name="G$4" symbol="KAC-12040-REF_OUT" x="86.36" y="35.56"/>
+<gate name="G$5" symbol="KAC-12040-POWER" x="-7.62" y="-25.4"/>
+<gate name="BANK0" symbol="LVDS_BANK" x="-48.26" y="-96.52"/>
+<gate name="BANK1" symbol="LVDS_BANK" x="2.54" y="-96.52"/>
+<gate name="BANK2" symbol="LVDS_BANK" x="50.8" y="-96.52"/>
+<gate name="BANK3" symbol="LVDS_BANK" x="99.06" y="-96.52"/>
+<gate name="BANK4" symbol="LVDS_BANK" x="-48.26" y="-139.7"/>
+<gate name="BANK5" symbol="LVDS_BANK" x="2.54" y="-139.7"/>
+<gate name="BANK7" symbol="LVDS_BANK" x="99.06" y="-139.7"/>
+<gate name="BANK6" symbol="LVDS_BANK" x="50.8" y="-139.7"/>
+</gates>
+<devices>
+<device name="" package="KAC-12040-400T4">
+<connects>
+<connect gate="BANK0" pin="CLK_N" pad="AA2"/>
+<connect gate="BANK0" pin="CLK_P" pad="AA1"/>
+<connect gate="BANK0" pin="LVDS_0_N" pad="AB2"/>
+<connect gate="BANK0" pin="LVDS_0_P" pad="AB1"/>
+<connect gate="BANK0" pin="LVDS_1_N" pad="AC2"/>
+<connect gate="BANK0" pin="LVDS_1_P" pad="AC1"/>
+<connect gate="BANK0" pin="LVDS_2_N" pad="AD2"/>
+<connect gate="BANK0" pin="LVDS_2_P" pad="AD1"/>
+<connect gate="BANK0" pin="LVDS_3_N" pad="AD3"/>
+<connect gate="BANK0" pin="LVDS_3_P" pad="AE3"/>
+<connect gate="BANK0" pin="LVDS_4_N" pad="AD4"/>
+<connect gate="BANK0" pin="LVDS_4_P" pad="AE4"/>
+<connect gate="BANK0" pin="LVDS_5_N" pad="AD5"/>
+<connect gate="BANK0" pin="LVDS_5_P" pad="AE5"/>
+<connect gate="BANK0" pin="LVDS_6_N" pad="AD6"/>
+<connect gate="BANK0" pin="LVDS_6_P" pad="AE6"/>
+<connect gate="BANK1" pin="CLK_N" pad="E2"/>
+<connect gate="BANK1" pin="CLK_P" pad="E1"/>
+<connect gate="BANK1" pin="LVDS_0_N" pad="D2"/>
+<connect gate="BANK1" pin="LVDS_0_P" pad="D1"/>
+<connect gate="BANK1" pin="LVDS_1_N" pad="C2"/>
+<connect gate="BANK1" pin="LVDS_1_P" pad="C1"/>
+<connect gate="BANK1" pin="LVDS_2_N" pad="B2"/>
+<connect gate="BANK1" pin="LVDS_2_P" pad="B1"/>
+<connect gate="BANK1" pin="LVDS_3_N" pad="B3"/>
+<connect gate="BANK1" pin="LVDS_3_P" pad="A3"/>
+<connect gate="BANK1" pin="LVDS_4_N" pad="B4"/>
+<connect gate="BANK1" pin="LVDS_4_P" pad="A4"/>
+<connect gate="BANK1" pin="LVDS_5_N" pad="B5"/>
+<connect gate="BANK1" pin="LVDS_5_P" pad="A5"/>
+<connect gate="BANK1" pin="LVDS_6_N" pad="B6"/>
+<connect gate="BANK1" pin="LVDS_6_P" pad="A6"/>
+<connect gate="BANK2" pin="CLK_N" pad="AC8"/>
+<connect gate="BANK2" pin="CLK_P" pad="AC7"/>
+<connect gate="BANK2" pin="LVDS_0_N" pad="AD7"/>
+<connect gate="BANK2" pin="LVDS_0_P" pad="AE7"/>
+<connect gate="BANK2" pin="LVDS_1_N" pad="AD8"/>
+<connect gate="BANK2" pin="LVDS_1_P" pad="AE8"/>
+<connect gate="BANK2" pin="LVDS_2_N" pad="AD9"/>
+<connect gate="BANK2" pin="LVDS_2_P" pad="AE9"/>
+<connect gate="BANK2" pin="LVDS_3_N" pad="AD10"/>
+<connect gate="BANK2" pin="LVDS_3_P" pad="AE10"/>
+<connect gate="BANK2" pin="LVDS_4_N" pad="AD11"/>
+<connect gate="BANK2" pin="LVDS_4_P" pad="AE11"/>
+<connect gate="BANK2" pin="LVDS_5_N" pad="AD12"/>
+<connect gate="BANK2" pin="LVDS_5_P" pad="AE12"/>
+<connect gate="BANK2" pin="LVDS_6_N" pad="AD13"/>
+<connect gate="BANK2" pin="LVDS_6_P" pad="AE13"/>
+<connect gate="BANK3" pin="CLK_N" pad="C8"/>
+<connect gate="BANK3" pin="CLK_P" pad="C7"/>
+<connect gate="BANK3" pin="LVDS_0_N" pad="B7"/>
+<connect gate="BANK3" pin="LVDS_0_P" pad="A7"/>
+<connect gate="BANK3" pin="LVDS_1_N" pad="B8"/>
+<connect gate="BANK3" pin="LVDS_1_P" pad="A8"/>
+<connect gate="BANK3" pin="LVDS_2_N" pad="B9"/>
+<connect gate="BANK3" pin="LVDS_2_P" pad="A9"/>
+<connect gate="BANK3" pin="LVDS_3_N" pad="B10"/>
+<connect gate="BANK3" pin="LVDS_3_P" pad="A10"/>
+<connect gate="BANK3" pin="LVDS_4_N" pad="B11"/>
+<connect gate="BANK3" pin="LVDS_4_P" pad="A11"/>
+<connect gate="BANK3" pin="LVDS_5_N" pad="B12"/>
+<connect gate="BANK3" pin="LVDS_5_P" pad="A12"/>
+<connect gate="BANK3" pin="LVDS_6_N" pad="B13"/>
+<connect gate="BANK3" pin="LVDS_6_P" pad="A13"/>
+<connect gate="BANK4" pin="CLK_N" pad="AC16"/>
+<connect gate="BANK4" pin="CLK_P" pad="AC15"/>
+<connect gate="BANK4" pin="LVDS_0_N" pad="AD15"/>
+<connect gate="BANK4" pin="LVDS_0_P" pad="AE15"/>
+<connect gate="BANK4" pin="LVDS_1_N" pad="AD16"/>
+<connect gate="BANK4" pin="LVDS_1_P" pad="AE16"/>
+<connect gate="BANK4" pin="LVDS_2_N" pad="AD17"/>
+<connect gate="BANK4" pin="LVDS_2_P" pad="AE17"/>
+<connect gate="BANK4" pin="LVDS_3_N" pad="AD18"/>
+<connect gate="BANK4" pin="LVDS_3_P" pad="AE18"/>
+<connect gate="BANK4" pin="LVDS_4_N" pad="AD19"/>
+<connect gate="BANK4" pin="LVDS_4_P" pad="AE19"/>
+<connect gate="BANK4" pin="LVDS_5_N" pad="AD20"/>
+<connect gate="BANK4" pin="LVDS_5_P" pad="AE20"/>
+<connect gate="BANK4" pin="LVDS_6_N" pad="AD21"/>
+<connect gate="BANK4" pin="LVDS_6_P" pad="AE21"/>
+<connect gate="BANK5" pin="CLK_N" pad="C16"/>
+<connect gate="BANK5" pin="CLK_P" pad="C15"/>
+<connect gate="BANK5" pin="LVDS_0_N" pad="B15"/>
+<connect gate="BANK5" pin="LVDS_0_P" pad="A15"/>
+<connect gate="BANK5" pin="LVDS_1_N" pad="B16"/>
+<connect gate="BANK5" pin="LVDS_1_P" pad="A16"/>
+<connect gate="BANK5" pin="LVDS_2_N" pad="B17"/>
+<connect gate="BANK5" pin="LVDS_2_P" pad="A17"/>
+<connect gate="BANK5" pin="LVDS_3_N" pad="B18"/>
+<connect gate="BANK5" pin="LVDS_3_P" pad="A18"/>
+<connect gate="BANK5" pin="LVDS_4_N" pad="B19"/>
+<connect gate="BANK5" pin="LVDS_4_P" pad="A19"/>
+<connect gate="BANK5" pin="LVDS_5_N" pad="B20"/>
+<connect gate="BANK5" pin="LVDS_5_P" pad="A20"/>
+<connect gate="BANK5" pin="LVDS_6_N" pad="B21"/>
+<connect gate="BANK5" pin="LVDS_6_P" pad="A21"/>
+<connect gate="BANK6" pin="CLK_N" pad="AD22"/>
+<connect gate="BANK6" pin="CLK_P" pad="AE22"/>
+<connect gate="BANK6" pin="LVDS_0_N" pad="AD23"/>
+<connect gate="BANK6" pin="LVDS_0_P" pad="AE23"/>
+<connect gate="BANK6" pin="LVDS_1_N" pad="AD24"/>
+<connect gate="BANK6" pin="LVDS_1_P" pad="AE24"/>
+<connect gate="BANK6" pin="LVDS_2_N" pad="AD25"/>
+<connect gate="BANK6" pin="LVDS_2_P" pad="AE25"/>
+<connect gate="BANK6" pin="LVDS_3_N" pad="AD27"/>
+<connect gate="BANK6" pin="LVDS_3_P" pad="AD26"/>
+<connect gate="BANK6" pin="LVDS_4_N" pad="AC27"/>
+<connect gate="BANK6" pin="LVDS_4_P" pad="AC26"/>
+<connect gate="BANK6" pin="LVDS_5_N" pad="AB27"/>
+<connect gate="BANK6" pin="LVDS_5_P" pad="AB26"/>
+<connect gate="BANK6" pin="LVDS_6_N" pad="AA27"/>
+<connect gate="BANK6" pin="LVDS_6_P" pad="AA26"/>
+<connect gate="BANK7" pin="CLK_N" pad="B22"/>
+<connect gate="BANK7" pin="CLK_P" pad="A22"/>
+<connect gate="BANK7" pin="LVDS_0_N" pad="B23"/>
+<connect gate="BANK7" pin="LVDS_0_P" pad="A23"/>
+<connect gate="BANK7" pin="LVDS_1_N" pad="B24"/>
+<connect gate="BANK7" pin="LVDS_1_P" pad="A24"/>
+<connect gate="BANK7" pin="LVDS_2_N" pad="B25"/>
+<connect gate="BANK7" pin="LVDS_2_P" pad="A25"/>
+<connect gate="BANK7" pin="LVDS_3_N" pad="B26"/>
+<connect gate="BANK7" pin="LVDS_3_P" pad="B27"/>
+<connect gate="BANK7" pin="LVDS_4_N" pad="C26"/>
+<connect gate="BANK7" pin="LVDS_4_P" pad="C27"/>
+<connect gate="BANK7" pin="LVDS_5_N" pad="D26"/>
+<connect gate="BANK7" pin="LVDS_5_P" pad="D27"/>
+<connect gate="BANK7" pin="LVDS_6_N" pad="E26"/>
+<connect gate="BANK7" pin="LVDS_6_P" pad="E27"/>
+<connect gate="G$1" pin="ADC_REF_1@AA14" pad="AA14"/>
+<connect gate="G$1" pin="ADC_REF_2@AA15" pad="AA15"/>
+<connect gate="G$1" pin="VCAL1@E15" pad="E15"/>
+<connect gate="G$1" pin="VCAL2@D15" pad="D15"/>
+<connect gate="G$1" pin="VSS_VLR_MN@AA9" pad="AA9"/>
+<connect gate="G$1" pin="V_PIXEL_LOW@E09" pad="E9"/>
+<connect gate="G$2" pin="CLK_IN_1@E07" pad="E7"/>
+<connect gate="G$2" pin="CLK_IN_2@D08" pad="D8"/>
+<connect gate="G$2" pin="SPI_CLK@AA05" pad="AA5"/>
+<connect gate="G$2" pin="SPI_EN@AA06" pad="AA6"/>
+<connect gate="G$2" pin="SPI_IN@AA08" pad="AA8"/>
+<connect gate="G$2" pin="SPI_OUT@AA07" pad="AA7"/>
+<connect gate="G$2" pin="SYS_RESET_N@AB09" pad="AB9"/>
+<connect gate="G$2" pin="TRIGGER@AB08" pad="AB8"/>
+<connect gate="G$3" pin="NC@A01" pad="A1"/>
+<connect gate="G$3" pin="NC@AA16" pad="AA16"/>
+<connect gate="G$3" pin="NC@AB05" pad="AB5"/>
+<connect gate="G$3" pin="NC@AC09" pad="AC9"/>
+<connect gate="G$3" pin="NC@C09" pad="C9"/>
+<connect gate="G$3" pin="NC@D05" pad="D5"/>
+<connect gate="G$3" pin="NC@D06" pad="D6"/>
+<connect gate="G$3" pin="NC@D07" pad="D7"/>
+<connect gate="G$3" pin="NC@D09" pad="D9"/>
+<connect gate="G$3" pin="NC@E14" pad="E14"/>
+<connect gate="G$3" pin="NC@E16" pad="E16"/>
+<connect gate="G$4" pin="FLASH_OUT@AB06" pad="AB6"/>
+<connect gate="G$4" pin="FRAME_EN_OUT@E05" pad="E5"/>
+<connect gate="G$4" pin="LINE_EN_OUT@E06" pad="E6"/>
+<connect gate="G$4" pin="MECH_SHUT_OUT@AB07" pad="AB7"/>
+<connect gate="G$5" pin="AVDDHV@AA10" pad="AA10"/>
+<connect gate="G$5" pin="AVDDHV@AA11" pad="AA11"/>
+<connect gate="G$5" pin="AVDDHV@AB10" pad="AB10"/>
+<connect gate="G$5" pin="AVDDHV@AB11" pad="AB11"/>
+<connect gate="G$5" pin="AVDDHV@AC10" pad="AC10"/>
+<connect gate="G$5" pin="AVDDHV@AC11" pad="AC11"/>
+<connect gate="G$5" pin="AVDDHV@C10" pad="C10"/>
+<connect gate="G$5" pin="AVDDHV@C11" pad="C11"/>
+<connect gate="G$5" pin="AVDDHV@D10" pad="D10"/>
+<connect gate="G$5" pin="AVDDHV@D11" pad="D11"/>
+<connect gate="G$5" pin="AVDDHV@E10" pad="E10"/>
+<connect gate="G$5" pin="AVDDHV@E11" pad="E11"/>
+<connect gate="G$5" pin="AVDDLV@AA17" pad="AA17"/>
+<connect gate="G$5" pin="AVDDLV@AB16" pad="AB16"/>
+<connect gate="G$5" pin="AVDDLV@AB17" pad="AB17"/>
+<connect gate="G$5" pin="AVDDLV@AC17" pad="AC17"/>
+<connect gate="G$5" pin="AVDDLV@C17" pad="C17"/>
+<connect gate="G$5" pin="AVDDLV@D16" pad="D16"/>
+<connect gate="G$5" pin="AVDDLV@D17" pad="D17"/>
+<connect gate="G$5" pin="AVDDLV@E17" pad="E17"/>
+<connect gate="G$5" pin="AVSSHV@AA12" pad="AA12"/>
+<connect gate="G$5" pin="AVSSHV@AB12" pad="AB12"/>
+<connect gate="G$5" pin="AVSSHV@AB14" pad="AB14"/>
+<connect gate="G$5" pin="AVSSHV@AC12" pad="AC12"/>
+<connect gate="G$5" pin="AVSSHV@AC14" pad="AC14"/>
+<connect gate="G$5" pin="AVSSHV@C12" pad="C12"/>
+<connect gate="G$5" pin="AVSSHV@C14" pad="C14"/>
+<connect gate="G$5" pin="AVSSHV@D12" pad="D12"/>
+<connect gate="G$5" pin="AVSSHV@D14" pad="D14"/>
+<connect gate="G$5" pin="AVSSHV@E12" pad="E12"/>
+<connect gate="G$5" pin="VDD0@AB15" pad="AB15"/>
+<connect gate="G$5" pin="VDD_DIG@AA18" pad="AA18"/>
+<connect gate="G$5" pin="VDD_DIG@AA20" pad="AA20"/>
+<connect gate="G$5" pin="VDD_DIG@AA21" pad="AA21"/>
+<connect gate="G$5" pin="VDD_DIG@AA22" pad="AA22"/>
+<connect gate="G$5" pin="VDD_DIG@AB18" pad="AB18"/>
+<connect gate="G$5" pin="VDD_DIG@AB19" pad="AB19"/>
+<connect gate="G$5" pin="VDD_DIG@AB20" pad="AB20"/>
+<connect gate="G$5" pin="VDD_DIG@AB21" pad="AB21"/>
+<connect gate="G$5" pin="VDD_DIG@AB22" pad="AB22"/>
+<connect gate="G$5" pin="VDD_DIG@AB23" pad="AB23"/>
+<connect gate="G$5" pin="VDD_DIG@AC18" pad="AC18"/>
+<connect gate="G$5" pin="VDD_DIG@AC19" pad="AC19"/>
+<connect gate="G$5" pin="VDD_DIG@AC20" pad="AC20"/>
+<connect gate="G$5" pin="VDD_DIG@AC21" pad="AC21"/>
+<connect gate="G$5" pin="VDD_DIG@AC22" pad="AC22"/>
+<connect gate="G$5" pin="VDD_DIG@C18" pad="C18"/>
+<connect gate="G$5" pin="VDD_DIG@C19" pad="C19"/>
+<connect gate="G$5" pin="VDD_DIG@C20" pad="C20"/>
+<connect gate="G$5" pin="VDD_DIG@C21" pad="C21"/>
+<connect gate="G$5" pin="VDD_DIG@C22" pad="C22"/>
+<connect gate="G$5" pin="VDD_DIG@D18" pad="D18"/>
+<connect gate="G$5" pin="VDD_DIG@D19" pad="D19"/>
+<connect gate="G$5" pin="VDD_DIG@D20" pad="D20"/>
+<connect gate="G$5" pin="VDD_DIG@D21" pad="D21"/>
+<connect gate="G$5" pin="VDD_DIG@D22" pad="D22"/>
+<connect gate="G$5" pin="VDD_DIG@D23" pad="D23"/>
+<connect gate="G$5" pin="VDD_DIG@E18" pad="E18"/>
+<connect gate="G$5" pin="VDD_DIG@E20" pad="E20"/>
+<connect gate="G$5" pin="VDD_DIG@E21" pad="E21"/>
+<connect gate="G$5" pin="VDD_DIG@E22" pad="E22"/>
+<connect gate="G$5" pin="VDD_LVDS@AA24" pad="AA24"/>
+<connect gate="G$5" pin="VDD_LVDS@AA4" pad="AA4"/>
+<connect gate="G$5" pin="VDD_LVDS@AB24" pad="AB24"/>
+<connect gate="G$5" pin="VDD_LVDS@AB4" pad="AB4"/>
+<connect gate="G$5" pin="VDD_LVDS@AC23" pad="AC23"/>
+<connect gate="G$5" pin="VDD_LVDS@AC24" pad="AC24"/>
+<connect gate="G$5" pin="VDD_LVDS@AC4" pad="AC4"/>
+<connect gate="G$5" pin="VDD_LVDS@AC5" pad="AC5"/>
+<connect gate="G$5" pin="VDD_LVDS@C23" pad="C23"/>
+<connect gate="G$5" pin="VDD_LVDS@C24" pad="C24"/>
+<connect gate="G$5" pin="VDD_LVDS@C4" pad="C4"/>
+<connect gate="G$5" pin="VDD_LVDS@C5" pad="C5"/>
+<connect gate="G$5" pin="VDD_LVDS@D24" pad="D24"/>
+<connect gate="G$5" pin="VDD_LVDS@D4" pad="D4"/>
+<connect gate="G$5" pin="VDD_LVDS@E24" pad="E24"/>
+<connect gate="G$5" pin="VDD_LVDS@E4" pad="E4"/>
+<connect gate="G$5" pin="VDD_PLL@E8" pad="E8"/>
+<connect gate="G$5" pin="VREFP@AA13" pad="AA13"/>
+<connect gate="G$5" pin="VREFP@AB13" pad="AB13"/>
+<connect gate="G$5" pin="VREFP@AC13" pad="AC13"/>
+<connect gate="G$5" pin="VREFP@C13" pad="C13"/>
+<connect gate="G$5" pin="VREFP@D13" pad="D13"/>
+<connect gate="G$5" pin="VREFP@E13" pad="E13"/>
+<connect gate="G$5" pin="VSS_DIG@A14" pad="A14"/>
+<connect gate="G$5" pin="VSS_DIG@A2" pad="A2"/>
+<connect gate="G$5" pin="VSS_DIG@A26" pad="A26"/>
+<connect gate="G$5" pin="VSS_DIG@AA19" pad="AA19"/>
+<connect gate="G$5" pin="VSS_DIG@AA23" pad="AA23"/>
+<connect gate="G$5" pin="VSS_DIG@AA25" pad="AA25"/>
+<connect gate="G$5" pin="VSS_DIG@AA3" pad="AA3"/>
+<connect gate="G$5" pin="VSS_DIG@AB25" pad="AB25"/>
+<connect gate="G$5" pin="VSS_DIG@AB3" pad="AB3"/>
+<connect gate="G$5" pin="VSS_DIG@AC25" pad="AC25"/>
+<connect gate="G$5" pin="VSS_DIG@AC3" pad="AC3"/>
+<connect gate="G$5" pin="VSS_DIG@AC6" pad="AC6"/>
+<connect gate="G$5" pin="VSS_DIG@AD14" pad="AD14"/>
+<connect gate="G$5" pin="VSS_DIG@AE14" pad="AE14"/>
+<connect gate="G$5" pin="VSS_DIG@AE2" pad="AE2"/>
+<connect gate="G$5" pin="VSS_DIG@AE26" pad="AE26"/>
+<connect gate="G$5" pin="VSS_DIG@B14" pad="B14"/>
+<connect gate="G$5" pin="VSS_DIG@C25" pad="C25"/>
+<connect gate="G$5" pin="VSS_DIG@C3" pad="C3"/>
+<connect gate="G$5" pin="VSS_DIG@C6" pad="C6"/>
+<connect gate="G$5" pin="VSS_DIG@D25" pad="D25"/>
+<connect gate="G$5" pin="VSS_DIG@D3" pad="D3"/>
+<connect gate="G$5" pin="VSS_DIG@E19" pad="E19"/>
+<connect gate="G$5" pin="VSS_DIG@E23" pad="E23"/>
+<connect gate="G$5" pin="VSS_DIG@E25" pad="E25"/>
+<connect gate="G$5" pin="VSS_DIG@E3" pad="E3"/>
 </connects>
 <technologies>
 <technology name=""/>

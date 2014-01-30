@@ -1052,302 +1052,302 @@ Please make sure your boards conform to these design rules.</description>
 <contactref element="U$1" pad="AB02"/>
 <wire x1="36.0492" y1="4.3492" x2="35.56" y2="14.605" width="0" layer="19" extent="16-16"/>
 </signal>
-<signal name="N$5">
+<signal name="L1$0_P">
 <contactref element="ZED1" pad="12"/>
 <contactref element="U$1" pad="AC01"/>
 <wire x1="35.2492" y1="8.3492" x2="34.29" y2="13.335" width="0" layer="19" extent="16-16"/>
 </signal>
-<signal name="N$6">
+<signal name="L1$0_N">
 <contactref element="ZED1" pad="14"/>
 <contactref element="U$1" pad="AC02"/>
 <wire x1="36.0492" y1="8.3492" x2="35.56" y2="13.335" width="0" layer="19" extent="16-16"/>
 </signal>
-<signal name="N$7">
+<signal name="L2$0_P">
 <contactref element="ZED1" pad="17"/>
 <contactref element="U$1" pad="AD01"/>
 <wire x1="37.6492" y1="4.3492" x2="34.29" y2="12.065" width="0" layer="19" extent="16-16"/>
 </signal>
-<signal name="N$8">
+<signal name="L2$0_N">
 <contactref element="ZED1" pad="19"/>
 <contactref element="U$1" pad="AD02"/>
 <wire x1="38.4492" y1="4.3492" x2="35.56" y2="12.065" width="0" layer="19" extent="16-16"/>
 </signal>
-<signal name="N$9">
+<signal name="C$2_P">
 <contactref element="ZED1" pad="42"/>
 <contactref element="U$1" pad="AC07"/>
 <wire x1="41.91" y1="13.335" x2="47.2492" y2="8.3492" width="0" layer="19" extent="16-16"/>
 </signal>
-<signal name="N$10">
+<signal name="C$2_N">
 <contactref element="ZED1" pad="44"/>
 <contactref element="U$1" pad="AC08"/>
 <wire x1="48.0492" y1="8.3492" x2="43.18" y2="13.335" width="0" layer="19" extent="16-16"/>
 </signal>
-<signal name="N$11">
+<signal name="L0$2_P">
 <contactref element="ZED1" pad="35"/>
 <contactref element="U$1" pad="AE07"/>
 <wire x1="44.8492" y1="4.3492" x2="41.91" y2="10.795" width="0" layer="19" extent="16-16"/>
 </signal>
-<signal name="N$12">
+<signal name="L0$2_N">
 <contactref element="ZED1" pad="37"/>
 <contactref element="U$1" pad="AD07"/>
 <wire x1="45.6492" y1="4.3492" x2="41.91" y2="12.065" width="0" layer="19" extent="16-16"/>
 </signal>
-<signal name="N$13">
+<signal name="L1$2_P">
 <contactref element="ZED1" pad="36"/>
 <contactref element="U$1" pad="AE08"/>
 <wire x1="44.8492" y1="8.3492" x2="43.18" y2="10.795" width="0" layer="19" extent="16-16"/>
 </signal>
-<signal name="N$14">
+<signal name="L1$2_N">
 <contactref element="ZED1" pad="38"/>
 <contactref element="U$1" pad="AD08"/>
 <wire x1="45.6492" y1="8.3492" x2="43.18" y2="12.065" width="0" layer="19" extent="16-16"/>
 </signal>
-<signal name="N$15">
+<signal name="L2$2_P">
 <contactref element="ZED1" pad="53"/>
 <contactref element="U$1" pad="AE09"/>
 <wire x1="44.45" y1="10.795" x2="52.0492" y2="4.3492" width="0" layer="19" extent="16-16"/>
 </signal>
-<signal name="N$16">
+<signal name="L2$2_N">
 <contactref element="ZED1" pad="55"/>
 <contactref element="U$1" pad="AD09"/>
 <wire x1="44.45" y1="12.065" x2="52.8492" y2="4.3492" width="0" layer="19" extent="16-16"/>
 </signal>
-<signal name="N$17">
+<signal name="L3$2_P">
 <contactref element="U$1" pad="AE10"/>
 <contactref element="ZED1" pad="54"/>
 <wire x1="45.72" y1="10.795" x2="52.0492" y2="8.3492" width="0" layer="19" extent="16-16"/>
 </signal>
-<signal name="N$18">
+<signal name="L3$2_N">
 <contactref element="U$1" pad="AD10"/>
 <contactref element="ZED1" pad="56"/>
 <wire x1="45.72" y1="12.065" x2="52.8492" y2="8.3492" width="0" layer="19" extent="16-16"/>
 </signal>
-<signal name="N$19">
+<signal name="L4$2_P">
 <contactref element="U$1" pad="AE11"/>
 <contactref element="ZED1" pad="61"/>
 <wire x1="55.2492" y1="4.3492" x2="46.99" y2="10.795" width="0" layer="19" extent="16-16"/>
 </signal>
-<signal name="N$20">
+<signal name="L4$2_N">
 <contactref element="U$1" pad="AD11"/>
 <contactref element="ZED1" pad="63"/>
 <wire x1="46.99" y1="12.065" x2="56.0492" y2="4.3492" width="0" layer="19" extent="16-16"/>
 </signal>
-<signal name="N$21">
+<signal name="L5$2_P">
 <contactref element="U$1" pad="AE12"/>
 <contactref element="ZED1" pad="62"/>
 <wire x1="48.26" y1="10.795" x2="55.2492" y2="8.3492" width="0" layer="19" extent="16-16"/>
 </signal>
-<signal name="N$22">
+<signal name="L5$2_N">
 <contactref element="U$1" pad="AD12"/>
 <contactref element="ZED1" pad="64"/>
 <wire x1="48.26" y1="12.065" x2="56.0492" y2="8.3492" width="0" layer="19" extent="16-16"/>
 </signal>
-<signal name="N$23">
+<signal name="L6$2_P">
 <contactref element="U$1" pad="AE13"/>
 <contactref element="ZED1" pad="67"/>
 <wire x1="57.6492" y1="4.3492" x2="49.53" y2="10.795" width="0" layer="19" extent="16-16"/>
 </signal>
-<signal name="N$24">
+<signal name="L6$2_N">
 <contactref element="U$1" pad="AD13"/>
 <contactref element="ZED1" pad="69"/>
 <wire x1="49.53" y1="12.065" x2="58.4492" y2="4.3492" width="0" layer="19" extent="16-16"/>
 </signal>
-<signal name="N$25">
+<signal name="L6$0_N">
 <contactref element="U$1" pad="AD06"/>
 <contactref element="ZED1" pad="32"/>
 <wire x1="43.2492" y1="8.3492" x2="40.64" y2="12.065" width="0" layer="19" extent="16-16"/>
 </signal>
-<signal name="N$26">
+<signal name="L6$0_P">
 <contactref element="U$1" pad="AE06"/>
 <contactref element="ZED1" pad="30"/>
 <wire x1="42.4492" y1="8.3492" x2="40.64" y2="10.795" width="0" layer="19" extent="16-16"/>
 </signal>
-<signal name="N$27">
+<signal name="L5$0_N">
 <contactref element="U$1" pad="AD05"/>
 <contactref element="ZED1" pad="31"/>
 <wire x1="43.2492" y1="4.3492" x2="39.37" y2="12.065" width="0" layer="19" extent="16-16"/>
 </signal>
-<signal name="N$28">
+<signal name="L5$0_P">
 <contactref element="U$1" pad="AE05"/>
 <contactref element="ZED1" pad="29"/>
 <wire x1="42.4492" y1="4.3492" x2="39.37" y2="10.795" width="0" layer="19" extent="16-16"/>
 </signal>
-<signal name="N$29">
+<signal name="L4$0_N">
 <contactref element="U$1" pad="AD04"/>
 <contactref element="ZED1" pad="26"/>
 <wire x1="40.8492" y1="8.3492" x2="38.1" y2="12.065" width="0" layer="19" extent="16-16"/>
 </signal>
-<signal name="N$30">
+<signal name="L4$0_P">
 <contactref element="U$1" pad="AE04"/>
 <contactref element="ZED1" pad="24"/>
 <wire x1="40.0492" y1="8.3492" x2="38.1" y2="10.795" width="0" layer="19" extent="16-16"/>
 </signal>
-<signal name="N$31">
+<signal name="L3$0_N">
 <contactref element="U$1" pad="AD03"/>
 <contactref element="ZED1" pad="25"/>
 <wire x1="40.8492" y1="4.3492" x2="36.83" y2="12.065" width="0" layer="19" extent="16-16"/>
 </signal>
-<signal name="N$32">
+<signal name="L3$0_P">
 <contactref element="U$1" pad="AE03"/>
 <contactref element="ZED1" pad="23"/>
 <wire x1="40.0492" y1="4.3492" x2="36.83" y2="10.795" width="0" layer="19" extent="16-16"/>
 </signal>
-<signal name="N$33">
+<signal name="L2$3_N">
 <contactref element="ZED1" pad="163"/>
 <contactref element="U$1" pad="B09"/>
 <wire x1="44.45" y1="45.085" x2="56.0492" y2="48.8008" width="0" layer="19" extent="16-16"/>
 </signal>
-<signal name="N$34">
+<signal name="L2$3_P">
 <contactref element="ZED1" pad="161"/>
 <contactref element="U$1" pad="A09"/>
 <wire x1="44.45" y1="46.355" x2="55.2492" y2="48.8008" width="0" layer="19" extent="16-16"/>
 </signal>
-<signal name="N$35">
+<signal name="L1$3_N">
 <contactref element="ZED1" pad="144"/>
 <contactref element="U$1" pad="B08"/>
 <wire x1="43.18" y1="45.085" x2="48.0492" y2="52.8008" width="0" layer="19" extent="16-16"/>
 </signal>
-<signal name="N$36">
+<signal name="L1$3_P">
 <contactref element="ZED1" pad="142"/>
 <contactref element="U$1" pad="A08"/>
 <wire x1="43.18" y1="46.355" x2="47.2492" y2="52.8008" width="0" layer="19" extent="16-16"/>
 </signal>
-<signal name="N$37">
+<signal name="L0$3_N">
 <contactref element="ZED1" pad="143"/>
 <contactref element="U$1" pad="B07"/>
 <wire x1="41.91" y1="45.085" x2="48.0492" y2="48.8008" width="0" layer="19" extent="16-16"/>
 </signal>
-<signal name="N$38">
+<signal name="L0$3_P">
 <contactref element="ZED1" pad="141"/>
 <contactref element="U$1" pad="A07"/>
 <wire x1="41.91" y1="46.355" x2="47.2492" y2="48.8008" width="0" layer="19" extent="16-16"/>
 </signal>
-<signal name="N$39">
+<signal name="C$3_N">
 <contactref element="ZED1" pad="150"/>
 <contactref element="U$1" pad="C08"/>
 <wire x1="43.18" y1="43.815" x2="50.4492" y2="52.8008" width="0" layer="19" extent="16-16"/>
 </signal>
-<signal name="N$40">
+<signal name="C$3_P">
 <contactref element="ZED1" pad="148"/>
 <contactref element="U$1" pad="C07"/>
 <wire x1="41.91" y1="43.815" x2="49.6492" y2="52.8008" width="0" layer="19" extent="16-16"/>
 </signal>
-<signal name="N$41">
+<signal name="L3$3_P">
 <contactref element="U$1" pad="A10"/>
 <contactref element="ZED1" pad="162"/>
 <wire x1="45.72" y1="46.355" x2="55.2492" y2="52.8008" width="0" layer="19" extent="16-16"/>
 </signal>
-<signal name="N$42">
+<signal name="L3$3_N">
 <contactref element="U$1" pad="B10"/>
 <contactref element="ZED1" pad="164"/>
 <wire x1="45.72" y1="45.085" x2="56.0492" y2="52.8008" width="0" layer="19" extent="16-16"/>
 </signal>
-<signal name="N$43">
+<signal name="L4$3_P">
 <contactref element="U$1" pad="A11"/>
 <contactref element="ZED1" pad="167"/>
 <wire x1="46.99" y1="46.355" x2="57.6492" y2="48.8008" width="0" layer="19" extent="16-16"/>
 </signal>
-<signal name="N$44">
+<signal name="L4$3_N">
 <contactref element="U$1" pad="B11"/>
 <contactref element="ZED1" pad="169"/>
 <wire x1="46.99" y1="45.085" x2="58.4492" y2="48.8008" width="0" layer="19" extent="16-16"/>
 </signal>
-<signal name="N$45">
+<signal name="L5$3_P">
 <contactref element="U$1" pad="A12"/>
 <contactref element="ZED1" pad="168"/>
 <wire x1="48.26" y1="46.355" x2="57.6492" y2="52.8008" width="0" layer="19" extent="16-16"/>
 </signal>
-<signal name="N$46">
+<signal name="L5$3_N">
 <contactref element="U$1" pad="B12"/>
 <contactref element="ZED1" pad="170"/>
 <wire x1="48.26" y1="45.085" x2="58.4492" y2="52.8008" width="0" layer="19" extent="16-16"/>
 </signal>
-<signal name="N$47">
+<signal name="L6$3_P">
 <contactref element="U$1" pad="A13"/>
 <contactref element="ZED1" pad="173"/>
 <wire x1="49.53" y1="46.355" x2="60.0492" y2="48.8008" width="0" layer="19" extent="16-16"/>
 </signal>
-<signal name="N$48">
+<signal name="L6$3_N">
 <contactref element="U$1" pad="B13"/>
 <contactref element="ZED1" pad="175"/>
 <wire x1="49.53" y1="45.085" x2="60.8492" y2="48.8008" width="0" layer="19" extent="16-16"/>
 </signal>
-<signal name="N$49">
+<signal name="C$1_P">
 <contactref element="ZED1" pad="147"/>
 <contactref element="U$1" pad="E01"/>
 <wire x1="34.29" y1="41.275" x2="49.6492" y2="48.8008" width="0" layer="19" extent="16-16"/>
 </signal>
-<signal name="N$50">
+<signal name="C$1_N">
 <contactref element="ZED1" pad="149"/>
 <contactref element="U$1" pad="E02"/>
 <wire x1="35.56" y1="41.275" x2="50.4492" y2="48.8008" width="0" layer="19" extent="16-16"/>
 </signal>
-<signal name="N$51">
+<signal name="L0$1_P">
 <contactref element="ZED1" pad="117"/>
 <contactref element="U$1" pad="D01"/>
 <wire x1="34.29" y1="42.545" x2="37.6492" y2="48.8008" width="0" layer="19" extent="16-16"/>
 </signal>
-<signal name="N$52">
+<signal name="L0$1_N">
 <contactref element="ZED1" pad="119"/>
 <contactref element="U$1" pad="D02"/>
 <wire x1="35.56" y1="42.545" x2="38.4492" y2="48.8008" width="0" layer="19" extent="16-16"/>
 </signal>
-<signal name="N$53">
+<signal name="L1$1_P">
 <contactref element="ZED1" pad="118"/>
 <contactref element="U$1" pad="C01"/>
 <wire x1="34.29" y1="43.815" x2="37.6492" y2="52.8008" width="0" layer="19" extent="16-16"/>
 </signal>
-<signal name="N$54">
+<signal name="L1$1_N">
 <contactref element="ZED1" pad="120"/>
 <contactref element="U$1" pad="C02"/>
 <wire x1="35.56" y1="43.815" x2="38.4492" y2="52.8008" width="0" layer="19" extent="16-16"/>
 </signal>
-<signal name="N$55">
+<signal name="L2$1_P">
 <contactref element="ZED1" pad="123"/>
 <contactref element="U$1" pad="B01"/>
 <wire x1="34.29" y1="45.085" x2="40.0492" y2="48.8008" width="0" layer="19" extent="16-16"/>
 </signal>
-<signal name="N$56">
+<signal name="L2$1_N">
 <contactref element="ZED1" pad="125"/>
 <contactref element="U$1" pad="B02"/>
 <wire x1="35.56" y1="45.085" x2="40.8492" y2="48.8008" width="0" layer="19" extent="16-16"/>
 </signal>
-<signal name="N$57">
+<signal name="L3$1_P">
 <contactref element="U$1" pad="A03"/>
 <contactref element="ZED1" pad="129"/>
 <wire x1="36.83" y1="46.355" x2="42.4492" y2="48.8008" width="0" layer="19" extent="16-16"/>
 </signal>
-<signal name="N$58">
+<signal name="L3$1_N">
 <contactref element="U$1" pad="B03"/>
 <contactref element="ZED1" pad="131"/>
 <wire x1="36.83" y1="45.085" x2="43.2492" y2="48.8008" width="0" layer="19" extent="16-16"/>
 </signal>
-<signal name="N$59">
+<signal name="L4$1_P">
 <contactref element="U$1" pad="A04"/>
 <contactref element="ZED1" pad="130"/>
 <wire x1="38.1" y1="46.355" x2="42.4492" y2="52.8008" width="0" layer="19" extent="16-16"/>
 </signal>
-<signal name="N$60">
+<signal name="L4$1_N">
 <contactref element="U$1" pad="B04"/>
 <contactref element="ZED1" pad="132"/>
 <wire x1="38.1" y1="45.085" x2="43.2492" y2="52.8008" width="0" layer="19" extent="16-16"/>
 </signal>
-<signal name="N$61">
+<signal name="L5$1_P">
 <contactref element="U$1" pad="A05"/>
 <contactref element="ZED1" pad="135"/>
 <wire x1="39.37" y1="46.355" x2="44.8492" y2="48.8008" width="0" layer="19" extent="16-16"/>
 </signal>
-<signal name="N$62">
+<signal name="L5$1_N">
 <contactref element="U$1" pad="B05"/>
 <contactref element="ZED1" pad="137"/>
 <wire x1="39.37" y1="45.085" x2="45.6492" y2="48.8008" width="0" layer="19" extent="16-16"/>
 </signal>
-<signal name="N$63">
+<signal name="L6$1_P">
 <contactref element="U$1" pad="A06"/>
 <contactref element="ZED1" pad="136"/>
 <wire x1="40.64" y1="46.355" x2="44.8492" y2="52.8008" width="0" layer="19" extent="16-16"/>
 </signal>
-<signal name="N$64">
+<signal name="L6$1_N">
 <contactref element="U$1" pad="B06"/>
 <contactref element="ZED1" pad="138"/>
 <wire x1="40.64" y1="45.085" x2="45.6492" y2="52.8008" width="0" layer="19" extent="16-16"/>

@@ -2233,420 +2233,420 @@ The sensor ceramic footprint and active area (4000x3000 pixels) are drawn as wel
 <wire x1="40.64" y1="167.64" x2="45.72" y2="167.64" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$5" class="0">
+<net name="L1$0_P" class="0">
 <segment>
 <pinref part="ZED1" gate="JX1_01" pin="_P"/>
 <pinref part="U$1" gate="_BANK0" pin="LVDS_1_P"/>
 <wire x1="40.64" y1="160.02" x2="45.72" y2="160.02" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$6" class="0">
+<net name="L1$0_N" class="0">
 <segment>
 <pinref part="ZED1" gate="JX1_01" pin="_N"/>
 <pinref part="U$1" gate="_BANK0" pin="LVDS_1_N"/>
 <wire x1="40.64" y1="157.48" x2="45.72" y2="157.48" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$7" class="0">
+<net name="L2$0_P" class="0">
 <segment>
 <pinref part="ZED1" gate="JX1_02" pin="_P"/>
 <pinref part="U$1" gate="_BANK0" pin="LVDS_2_P"/>
 <wire x1="40.64" y1="149.86" x2="45.72" y2="149.86" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$8" class="0">
+<net name="L2$0_N" class="0">
 <segment>
 <pinref part="ZED1" gate="JX1_02" pin="_N"/>
 <pinref part="U$1" gate="_BANK0" pin="LVDS_2_N"/>
 <wire x1="40.64" y1="147.32" x2="45.72" y2="147.32" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$9" class="0">
+<net name="C$2_P" class="0">
 <segment>
 <pinref part="ZED1" gate="JX1_11" pin="_P"/>
 <pinref part="U$1" gate="_BANK2" pin="CLK_P"/>
 <wire x1="40.64" y1="127" x2="45.72" y2="127" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$10" class="0">
+<net name="C$2_N" class="0">
 <segment>
 <pinref part="ZED1" gate="JX1_11" pin="_N"/>
 <pinref part="U$1" gate="_BANK2" pin="CLK_N"/>
 <wire x1="40.64" y1="124.46" x2="45.72" y2="124.46" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$11" class="0">
+<net name="L0$2_P" class="0">
 <segment>
 <pinref part="ZED1" gate="JX1_08" pin="_P"/>
 <pinref part="U$1" gate="_BANK2" pin="LVDS_0_P"/>
 <wire x1="40.64" y1="116.84" x2="45.72" y2="116.84" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$12" class="0">
+<net name="L0$2_N" class="0">
 <segment>
 <pinref part="ZED1" gate="JX1_08" pin="_N"/>
 <pinref part="U$1" gate="_BANK2" pin="LVDS_0_N"/>
 <wire x1="40.64" y1="114.3" x2="45.72" y2="114.3" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$13" class="0">
+<net name="L1$2_P" class="0">
 <segment>
 <pinref part="ZED1" gate="JX1_09" pin="_P"/>
 <pinref part="U$1" gate="_BANK2" pin="LVDS_1_P"/>
 <wire x1="40.64" y1="106.68" x2="45.72" y2="106.68" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$14" class="0">
+<net name="L1$2_N" class="0">
 <segment>
 <pinref part="ZED1" gate="JX1_09" pin="_N"/>
 <pinref part="U$1" gate="_BANK2" pin="LVDS_1_N"/>
 <wire x1="40.64" y1="104.14" x2="45.72" y2="104.14" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$15" class="0">
+<net name="L2$2_P" class="0">
 <segment>
 <pinref part="ZED1" gate="JX1_14" pin="_P"/>
 <pinref part="U$1" gate="_BANK2" pin="LVDS_2_P"/>
 <wire x1="40.64" y1="96.52" x2="45.72" y2="96.52" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$16" class="0">
+<net name="L2$2_N" class="0">
 <segment>
 <pinref part="ZED1" gate="JX1_14" pin="_N"/>
 <pinref part="U$1" gate="_BANK2" pin="LVDS_2_N"/>
 <wire x1="40.64" y1="93.98" x2="45.72" y2="93.98" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$17" class="0">
+<net name="L3$2_P" class="0">
 <segment>
 <pinref part="U$1" gate="_BANK2" pin="LVDS_3_P"/>
 <pinref part="ZED1" gate="JX1_15" pin="_P"/>
 <wire x1="86.36" y1="127" x2="91.44" y2="127" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$18" class="0">
+<net name="L3$2_N" class="0">
 <segment>
 <pinref part="U$1" gate="_BANK2" pin="LVDS_3_N"/>
 <pinref part="ZED1" gate="JX1_15" pin="_N"/>
 <wire x1="86.36" y1="124.46" x2="91.44" y2="124.46" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$19" class="0">
+<net name="L4$2_P" class="0">
 <segment>
 <pinref part="U$1" gate="_BANK2" pin="LVDS_4_P"/>
 <pinref part="ZED1" gate="JX1_16" pin="_P"/>
 <wire x1="86.36" y1="116.84" x2="91.44" y2="116.84" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$20" class="0">
+<net name="L4$2_N" class="0">
 <segment>
 <pinref part="U$1" gate="_BANK2" pin="LVDS_4_N"/>
 <pinref part="ZED1" gate="JX1_16" pin="_N"/>
 <wire x1="86.36" y1="114.3" x2="91.44" y2="114.3" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$21" class="0">
+<net name="L5$2_P" class="0">
 <segment>
 <pinref part="U$1" gate="_BANK2" pin="LVDS_5_P"/>
 <pinref part="ZED1" gate="JX1_17" pin="_P"/>
 <wire x1="86.36" y1="106.68" x2="91.44" y2="106.68" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$22" class="0">
+<net name="L5$2_N" class="0">
 <segment>
 <pinref part="U$1" gate="_BANK2" pin="LVDS_5_N"/>
 <pinref part="ZED1" gate="JX1_17" pin="_N"/>
 <wire x1="86.36" y1="104.14" x2="91.44" y2="104.14" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$23" class="0">
+<net name="L6$2_P" class="0">
 <segment>
 <pinref part="U$1" gate="_BANK2" pin="LVDS_6_P"/>
 <pinref part="ZED1" gate="JX1_18" pin="_P"/>
 <wire x1="86.36" y1="96.52" x2="91.44" y2="96.52" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$24" class="0">
+<net name="L6$2_N" class="0">
 <segment>
 <pinref part="U$1" gate="_BANK2" pin="LVDS_6_N"/>
 <pinref part="ZED1" gate="JX1_18" pin="_N"/>
 <wire x1="86.36" y1="93.98" x2="91.44" y2="93.98" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$25" class="0">
+<net name="L6$0_N" class="0">
 <segment>
 <pinref part="U$1" gate="_BANK0" pin="LVDS_6_N"/>
 <pinref part="ZED1" gate="JX1_07" pin="_N"/>
 <wire x1="86.36" y1="147.32" x2="91.44" y2="147.32" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$26" class="0">
+<net name="L6$0_P" class="0">
 <segment>
 <pinref part="U$1" gate="_BANK0" pin="LVDS_6_P"/>
 <pinref part="ZED1" gate="JX1_07" pin="_P"/>
 <wire x1="86.36" y1="149.86" x2="91.44" y2="149.86" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$27" class="0">
+<net name="L5$0_N" class="0">
 <segment>
 <pinref part="U$1" gate="_BANK0" pin="LVDS_5_N"/>
 <pinref part="ZED1" gate="JX1_06" pin="_N"/>
 <wire x1="86.36" y1="157.48" x2="91.44" y2="157.48" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$28" class="0">
+<net name="L5$0_P" class="0">
 <segment>
 <pinref part="U$1" gate="_BANK0" pin="LVDS_5_P"/>
 <pinref part="ZED1" gate="JX1_06" pin="_P"/>
 <wire x1="86.36" y1="160.02" x2="91.44" y2="160.02" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$29" class="0">
+<net name="L4$0_N" class="0">
 <segment>
 <pinref part="U$1" gate="_BANK0" pin="LVDS_4_N"/>
 <pinref part="ZED1" gate="JX1_05" pin="_N"/>
 <wire x1="86.36" y1="167.64" x2="91.44" y2="167.64" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$30" class="0">
+<net name="L4$0_P" class="0">
 <segment>
 <pinref part="U$1" gate="_BANK0" pin="LVDS_4_P"/>
 <pinref part="ZED1" gate="JX1_05" pin="_P"/>
 <wire x1="86.36" y1="170.18" x2="91.44" y2="170.18" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$31" class="0">
+<net name="L3$0_N" class="0">
 <segment>
 <pinref part="U$1" gate="_BANK0" pin="LVDS_3_N"/>
 <pinref part="ZED1" gate="JX1_04" pin="_N"/>
 <wire x1="86.36" y1="177.8" x2="91.44" y2="177.8" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$32" class="0">
+<net name="L3$0_P" class="0">
 <segment>
 <pinref part="U$1" gate="_BANK0" pin="LVDS_3_P"/>
 <pinref part="ZED1" gate="JX1_04" pin="_P"/>
 <wire x1="86.36" y1="180.34" x2="91.44" y2="180.34" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$33" class="0">
+<net name="L2$3_N" class="0">
 <segment>
 <pinref part="ZED1" gate="JX2_14" pin="_N"/>
 <pinref part="U$1" gate="_BANK3" pin="LVDS_2_N"/>
 <wire x1="172.72" y1="93.98" x2="177.8" y2="93.98" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$34" class="0">
+<net name="L2$3_P" class="0">
 <segment>
 <pinref part="ZED1" gate="JX2_14" pin="_P"/>
 <pinref part="U$1" gate="_BANK3" pin="LVDS_2_P"/>
 <wire x1="172.72" y1="96.52" x2="177.8" y2="96.52" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$35" class="0">
+<net name="L1$3_N" class="0">
 <segment>
 <pinref part="ZED1" gate="JX2_09" pin="_N"/>
 <pinref part="U$1" gate="_BANK3" pin="LVDS_1_N"/>
 <wire x1="172.72" y1="104.14" x2="177.8" y2="104.14" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$36" class="0">
+<net name="L1$3_P" class="0">
 <segment>
 <pinref part="ZED1" gate="JX2_09" pin="_P"/>
 <pinref part="U$1" gate="_BANK3" pin="LVDS_1_P"/>
 <wire x1="172.72" y1="106.68" x2="177.8" y2="106.68" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$37" class="0">
+<net name="L0$3_N" class="0">
 <segment>
 <pinref part="ZED1" gate="JX2_08" pin="_N"/>
 <pinref part="U$1" gate="_BANK3" pin="LVDS_0_N"/>
 <wire x1="172.72" y1="114.3" x2="177.8" y2="114.3" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$38" class="0">
+<net name="L0$3_P" class="0">
 <segment>
 <pinref part="ZED1" gate="JX2_08" pin="_P"/>
 <pinref part="U$1" gate="_BANK3" pin="LVDS_0_P"/>
 <wire x1="172.72" y1="116.84" x2="177.8" y2="116.84" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$39" class="0">
+<net name="C$3_N" class="0">
 <segment>
 <pinref part="ZED1" gate="JX2_11" pin="_N"/>
 <pinref part="U$1" gate="_BANK3" pin="CLK_N"/>
 <wire x1="172.72" y1="124.46" x2="177.8" y2="124.46" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$40" class="0">
+<net name="C$3_P" class="0">
 <segment>
 <pinref part="ZED1" gate="JX2_11" pin="_P"/>
 <pinref part="U$1" gate="_BANK3" pin="CLK_P"/>
 <wire x1="172.72" y1="127" x2="177.8" y2="127" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$41" class="0">
+<net name="L3$3_P" class="0">
 <segment>
 <pinref part="U$1" gate="_BANK3" pin="LVDS_3_P"/>
 <pinref part="ZED1" gate="JX2_15" pin="_P"/>
 <wire x1="218.44" y1="127" x2="223.52" y2="127" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$42" class="0">
+<net name="L3$3_N" class="0">
 <segment>
 <pinref part="U$1" gate="_BANK3" pin="LVDS_3_N"/>
 <pinref part="ZED1" gate="JX2_15" pin="_N"/>
 <wire x1="218.44" y1="124.46" x2="223.52" y2="124.46" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$43" class="0">
+<net name="L4$3_P" class="0">
 <segment>
 <pinref part="U$1" gate="_BANK3" pin="LVDS_4_P"/>
 <pinref part="ZED1" gate="JX2_16" pin="_P"/>
 <wire x1="218.44" y1="116.84" x2="223.52" y2="116.84" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$44" class="0">
+<net name="L4$3_N" class="0">
 <segment>
 <pinref part="U$1" gate="_BANK3" pin="LVDS_4_N"/>
 <pinref part="ZED1" gate="JX2_16" pin="_N"/>
 <wire x1="218.44" y1="114.3" x2="223.52" y2="114.3" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$45" class="0">
+<net name="L5$3_P" class="0">
 <segment>
 <pinref part="U$1" gate="_BANK3" pin="LVDS_5_P"/>
 <pinref part="ZED1" gate="JX2_17" pin="_P"/>
 <wire x1="218.44" y1="106.68" x2="223.52" y2="106.68" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$46" class="0">
+<net name="L5$3_N" class="0">
 <segment>
 <pinref part="U$1" gate="_BANK3" pin="LVDS_5_N"/>
 <pinref part="ZED1" gate="JX2_17" pin="_N"/>
 <wire x1="218.44" y1="104.14" x2="223.52" y2="104.14" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$47" class="0">
+<net name="L6$3_P" class="0">
 <segment>
 <pinref part="U$1" gate="_BANK3" pin="LVDS_6_P"/>
 <pinref part="ZED1" gate="JX2_18" pin="_P"/>
 <wire x1="218.44" y1="96.52" x2="223.52" y2="96.52" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$48" class="0">
+<net name="L6$3_N" class="0">
 <segment>
 <pinref part="U$1" gate="_BANK3" pin="LVDS_6_N"/>
 <pinref part="ZED1" gate="JX2_18" pin="_N"/>
 <wire x1="218.44" y1="93.98" x2="223.52" y2="93.98" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$49" class="0">
+<net name="C$1_P" class="0">
 <segment>
 <pinref part="ZED1" gate="JX2_10" pin="_P"/>
 <pinref part="U$1" gate="_BANK1" pin="CLK_P"/>
 <wire x1="172.72" y1="180.34" x2="177.8" y2="180.34" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$50" class="0">
+<net name="C$1_N" class="0">
 <segment>
 <pinref part="ZED1" gate="JX2_10" pin="_N"/>
 <pinref part="U$1" gate="_BANK1" pin="CLK_N"/>
 <wire x1="172.72" y1="177.8" x2="177.8" y2="177.8" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$51" class="0">
+<net name="L0$1_P" class="0">
 <segment>
 <pinref part="ZED1" gate="JX2_00" pin="_P"/>
 <pinref part="U$1" gate="_BANK1" pin="LVDS_0_P"/>
 <wire x1="172.72" y1="170.18" x2="177.8" y2="170.18" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$52" class="0">
+<net name="L0$1_N" class="0">
 <segment>
 <pinref part="ZED1" gate="JX2_00" pin="_N"/>
 <pinref part="U$1" gate="_BANK1" pin="LVDS_0_N"/>
 <wire x1="172.72" y1="167.64" x2="177.8" y2="167.64" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$53" class="0">
+<net name="L1$1_P" class="0">
 <segment>
 <pinref part="ZED1" gate="JX2_01" pin="_P"/>
 <pinref part="U$1" gate="_BANK1" pin="LVDS_1_P"/>
 <wire x1="172.72" y1="160.02" x2="177.8" y2="160.02" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$54" class="0">
+<net name="L1$1_N" class="0">
 <segment>
 <pinref part="ZED1" gate="JX2_01" pin="_N"/>
 <pinref part="U$1" gate="_BANK1" pin="LVDS_1_N"/>
 <wire x1="172.72" y1="157.48" x2="177.8" y2="157.48" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$55" class="0">
+<net name="L2$1_P" class="0">
 <segment>
 <pinref part="ZED1" gate="JX2_02" pin="_P"/>
 <pinref part="U$1" gate="_BANK1" pin="LVDS_2_P"/>
 <wire x1="172.72" y1="149.86" x2="177.8" y2="149.86" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$56" class="0">
+<net name="L2$1_N" class="0">
 <segment>
 <pinref part="ZED1" gate="JX2_02" pin="_N"/>
 <pinref part="U$1" gate="_BANK1" pin="LVDS_2_N"/>
 <wire x1="172.72" y1="147.32" x2="177.8" y2="147.32" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$57" class="0">
+<net name="L3$1_P" class="0">
 <segment>
 <pinref part="U$1" gate="_BANK1" pin="LVDS_3_P"/>
 <pinref part="ZED1" gate="JX2_04" pin="_P"/>
 <wire x1="218.44" y1="180.34" x2="223.52" y2="180.34" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$58" class="0">
+<net name="L3$1_N" class="0">
 <segment>
 <pinref part="U$1" gate="_BANK1" pin="LVDS_3_N"/>
 <pinref part="ZED1" gate="JX2_04" pin="_N"/>
 <wire x1="218.44" y1="177.8" x2="223.52" y2="177.8" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$59" class="0">
+<net name="L4$1_P" class="0">
 <segment>
 <pinref part="U$1" gate="_BANK1" pin="LVDS_4_P"/>
 <pinref part="ZED1" gate="JX2_05" pin="_P"/>
 <wire x1="218.44" y1="170.18" x2="223.52" y2="170.18" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$60" class="0">
+<net name="L4$1_N" class="0">
 <segment>
 <pinref part="U$1" gate="_BANK1" pin="LVDS_4_N"/>
 <pinref part="ZED1" gate="JX2_05" pin="_N"/>
 <wire x1="218.44" y1="167.64" x2="223.52" y2="167.64" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$61" class="0">
+<net name="L5$1_P" class="0">
 <segment>
 <pinref part="U$1" gate="_BANK1" pin="LVDS_5_P"/>
 <pinref part="ZED1" gate="JX2_06" pin="_P"/>
 <wire x1="218.44" y1="160.02" x2="223.52" y2="160.02" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$62" class="0">
+<net name="L5$1_N" class="0">
 <segment>
 <pinref part="U$1" gate="_BANK1" pin="LVDS_5_N"/>
 <pinref part="ZED1" gate="JX2_06" pin="_N"/>
 <wire x1="218.44" y1="157.48" x2="223.52" y2="157.48" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$63" class="0">
+<net name="L6$1_P" class="0">
 <segment>
 <pinref part="U$1" gate="_BANK1" pin="LVDS_6_P"/>
 <pinref part="ZED1" gate="JX2_07" pin="_P"/>
 <wire x1="218.44" y1="149.86" x2="223.52" y2="149.86" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$64" class="0">
+<net name="L6$1_N" class="0">
 <segment>
 <pinref part="U$1" gate="_BANK1" pin="LVDS_6_N"/>
 <pinref part="ZED1" gate="JX2_07" pin="_N"/>

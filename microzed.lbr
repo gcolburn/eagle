@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -577,23 +577,23 @@
 <pin name="PWR_ENABLE" x="-22.86" y="5.08" length="middle" direction="in"/>
 </symbol>
 <symbol name="LVDS_CC">
-<wire x1="-7.62" y1="2.54" x2="10.16" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="2.54" x2="10.16" y2="2.54" width="0.254" layer="94"/>
 <wire x1="10.16" y1="2.54" x2="10.16" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="10.16" y1="-5.08" x2="-7.62" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="-7.62" y1="-5.08" x2="-7.62" y2="2.54" width="0.254" layer="94"/>
-<pin name="_N" x="15.24" y="0" length="middle" function="dot" rot="R180"/>
-<pin name="_P" x="15.24" y="-2.54" length="middle" rot="R180"/>
+<wire x1="10.16" y1="-5.08" x2="-10.16" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-5.08" x2="-10.16" y2="2.54" width="0.254" layer="94"/>
+<pin name="_N" x="15.24" y="-2.54" length="middle" function="dot" rot="R180"/>
+<pin name="_P" x="15.24" y="0" length="middle" rot="R180"/>
 <text x="8.89" y="-1.27" size="1.778" layer="94" rot="R90" align="center">cc</text>
 <text x="5.08" y="0" size="1.778" layer="94" align="center-right">&gt;GATE</text>
 <text x="5.08" y="-2.54" size="1.778" layer="94" align="center-right">&gt;GATE</text>
 </symbol>
 <symbol name="LVDS">
-<wire x1="-7.62" y1="2.54" x2="10.16" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="2.54" x2="10.16" y2="2.54" width="0.254" layer="94"/>
 <wire x1="10.16" y1="2.54" x2="10.16" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="10.16" y1="-5.08" x2="-7.62" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="-7.62" y1="-5.08" x2="-7.62" y2="2.54" width="0.254" layer="94"/>
-<pin name="_N" x="15.24" y="0" length="middle" function="dot" rot="R180"/>
-<pin name="_P" x="15.24" y="-2.54" length="middle" rot="R180"/>
+<wire x1="10.16" y1="-5.08" x2="-10.16" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-5.08" x2="-10.16" y2="2.54" width="0.254" layer="94"/>
+<pin name="_N" x="15.24" y="-2.54" length="middle" function="dot" rot="R180"/>
+<pin name="_P" x="15.24" y="0" length="middle" rot="R180"/>
 <text x="5.08" y="0" size="1.778" layer="94" align="center-right">&gt;GATE</text>
 <text x="5.08" y="-2.54" size="1.778" layer="94" align="center-right">&gt;GATE</text>
 </symbol>
@@ -699,20 +699,20 @@
 <pin name="PMOD_D0" x="15.24" y="7.62" length="middle" rot="R180"/>
 </symbol>
 <symbol name="SE">
-<wire x1="-12.7" y1="5.08" x2="5.08" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-15.24" y1="5.08" x2="5.08" y2="5.08" width="0.254" layer="94"/>
 <wire x1="5.08" y1="5.08" x2="5.08" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="5.08" y1="-2.54" x2="-12.7" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="-12.7" y1="-2.54" x2="-12.7" y2="5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-2.54" x2="-15.24" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-15.24" y1="-2.54" x2="-15.24" y2="5.08" width="0.254" layer="94"/>
 <pin name="_0" x="10.16" y="2.54" length="middle" rot="R180"/>
 <pin name="_1" x="10.16" y="0" length="middle" rot="R180"/>
 <text x="0" y="2.54" size="1.778" layer="94" align="center-right">&gt;GATE</text>
 <text x="0" y="0" size="1.778" layer="94" align="center-right">&gt;GATE</text>
 </symbol>
 <symbol name="SE0">
-<wire x1="-12.7" y1="2.54" x2="5.08" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-15.24" y1="2.54" x2="5.08" y2="2.54" width="0.254" layer="94"/>
 <wire x1="5.08" y1="2.54" x2="5.08" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="5.08" y1="-2.54" x2="-12.7" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="-12.7" y1="-2.54" x2="-12.7" y2="2.54" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-2.54" x2="-15.24" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-15.24" y1="-2.54" x2="-15.24" y2="2.54" width="0.254" layer="94"/>
 <pin name="_0" x="10.16" y="0" length="middle" rot="R180"/>
 <text x="0" y="0" size="1.778" layer="94" align="center-right">&gt;GATE</text>
 </symbol>
@@ -940,11 +940,11 @@ Any question ? &lt;sergebertet@yahoo.fr&gt;</description>
 </deviceset>
 <deviceset name="µZ-FCI" prefix="ZED">
 <gates>
-<gate name="-CTRL" symbol="CTRL" x="182.88" y="-104.14" addlevel="must"/>
-<gate name="JX1_10_CC" symbol="LVDS_CC" x="-35.56" y="-15.24" swaplevel="2"/>
-<gate name="JX1_11_CC" symbol="LVDS_CC" x="-35.56" y="-25.4" swaplevel="2"/>
-<gate name="JX1_12_CC" symbol="LVDS_CC" x="-35.56" y="-35.56" swaplevel="2"/>
-<gate name="JX1_13_CC" symbol="LVDS_CC" x="-35.56" y="-45.72" swaplevel="2"/>
+<gate name="_CTRL" symbol="CTRL" x="182.88" y="-104.14" addlevel="must"/>
+<gate name="JX1_10" symbol="LVDS_CC" x="-35.56" y="-15.24" swaplevel="2"/>
+<gate name="JX1_11" symbol="LVDS_CC" x="-35.56" y="-25.4" swaplevel="2"/>
+<gate name="JX1_12" symbol="LVDS_CC" x="-35.56" y="-35.56" swaplevel="2"/>
+<gate name="JX1_13" symbol="LVDS_CC" x="-35.56" y="-45.72" swaplevel="2"/>
 <gate name="JX1_00" symbol="LVDS" x="-2.54" y="-15.24" swaplevel="2"/>
 <gate name="JX1_01" symbol="LVDS" x="-2.54" y="-25.4" swaplevel="2"/>
 <gate name="JX1_02" symbol="LVDS" x="-2.54" y="-35.56" swaplevel="2"/>
@@ -975,8 +975,8 @@ Any question ? &lt;sergebertet@yahoo.fr&gt;</description>
 <gate name="JX2_07" symbol="LVDS" x="99.06" y="-86.36" swaplevel="2"/>
 <gate name="JX2_08" symbol="LVDS" x="99.06" y="-96.52" swaplevel="2"/>
 <gate name="JX2_09" symbol="LVDS" x="99.06" y="-106.68" swaplevel="2"/>
-<gate name="-POWER" symbol="POWER" x="-78.74" y="-60.96" addlevel="must"/>
-<gate name="-JTAG" symbol="JTAG" x="172.72" y="-78.74" addlevel="can"/>
+<gate name="_POWER" symbol="POWER" x="-78.74" y="-60.96" addlevel="must"/>
+<gate name="_JTAG" symbol="JTAG" x="172.72" y="-78.74" addlevel="can"/>
 <gate name="JX2_14" symbol="LVDS" x="132.08" y="-15.24"/>
 <gate name="JX2_15" symbol="LVDS" x="132.08" y="-25.4"/>
 <gate name="JX2_16" symbol="LVDS" x="132.08" y="-35.56"/>
@@ -987,18 +987,18 @@ Any question ? &lt;sergebertet@yahoo.fr&gt;</description>
 <gate name="JX2_21" symbol="LVDS" x="132.08" y="-86.36"/>
 <gate name="JX2_22" symbol="LVDS" x="132.08" y="-96.52"/>
 <gate name="JX2_23" symbol="LVDS" x="132.08" y="-106.68"/>
-<gate name="JX2_10_CC" symbol="LVDS_CC" x="66.04" y="-15.24"/>
-<gate name="JX2_11_CC" symbol="LVDS_CC" x="66.04" y="-25.4"/>
-<gate name="JX2_12_CC" symbol="LVDS_CC" x="66.04" y="-35.56"/>
-<gate name="JX2_13_CC" symbol="LVDS_CC" x="66.04" y="-45.72"/>
-<gate name="BANK13_00_CC" symbol="LVDS_CC" x="172.72" y="-15.24"/>
-<gate name="BANK13_01_CC" symbol="LVDS_CC" x="172.72" y="-25.4"/>
+<gate name="JX2_10" symbol="LVDS_CC" x="66.04" y="-15.24"/>
+<gate name="JX2_11" symbol="LVDS_CC" x="66.04" y="-25.4"/>
+<gate name="JX2_12" symbol="LVDS_CC" x="66.04" y="-35.56"/>
+<gate name="JX2_13" symbol="LVDS_CC" x="66.04" y="-45.72"/>
+<gate name="BANK13_00" symbol="LVDS_CC" x="172.72" y="-15.24"/>
+<gate name="BANK13_01" symbol="LVDS_CC" x="172.72" y="-25.4"/>
 <gate name="BANK13_02" symbol="LVDS" x="205.74" y="-15.24"/>
 <gate name="BANK13_03" symbol="LVDS" x="205.74" y="-25.4"/>
 <gate name="BANK13_04" symbol="LVDS" x="205.74" y="-35.56"/>
 <gate name="BANK13_05" symbol="LVDS" x="205.74" y="-45.72"/>
 <gate name="BANK13_06" symbol="LVDS" x="205.74" y="-55.88"/>
-<gate name="PMOD" symbol="PMOD" x="-35.56" y="-93.98"/>
+<gate name="_PMOD" symbol="PMOD" x="-35.56" y="-99.06"/>
 <gate name="JX1_SE" symbol="SE" x="-30.48" y="-68.58"/>
 <gate name="JX2_SE" symbol="SE" x="71.12" y="-68.58"/>
 <gate name="VP_0" symbol="LVDS" x="172.72" y="-35.56"/>
@@ -1006,85 +1006,12 @@ Any question ? &lt;sergebertet@yahoo.fr&gt;</description>
 <gate name="BANK13_SE" symbol="SE0" x="177.8" y="-66.04"/>
 </gates>
 <devices>
-<device name="µZ-FCI" package="µZ">
+<device name="_LVDS" package="µZ">
 <connects>
-<connect gate="-CTRL" pin="!CARRIER_SRST" pad="6"/>
-<connect gate="-CTRL" pin="!INIT" pad="109"/>
-<connect gate="-CTRL" pin="!PROGRAM" pad="110"/>
-<connect gate="-CTRL" pin="FPGA_DONE" pad="8"/>
-<connect gate="-CTRL" pin="PG_MODULE" pad="111"/>
-<connect gate="-CTRL" pin="PWR_ENABLE" pad="5"/>
-<connect gate="-JTAG" pin="TCK" pad="1"/>
-<connect gate="-JTAG" pin="TDI" pad="4"/>
-<connect gate="-JTAG" pin="TDO" pad="3"/>
-<connect gate="-JTAG" pin="TMS" pad="2"/>
-<connect gate="-POWER" pin="FPGA_VBAT" pad="7"/>
-<connect gate="-POWER" pin="GND@115" pad="115"/>
-<connect gate="-POWER" pin="GND@116" pad="116"/>
-<connect gate="-POWER" pin="GND@121" pad="121"/>
-<connect gate="-POWER" pin="GND@122" pad="122"/>
-<connect gate="-POWER" pin="GND@127" pad="127"/>
-<connect gate="-POWER" pin="GND@128" pad="128"/>
-<connect gate="-POWER" pin="GND@133" pad="133"/>
-<connect gate="-POWER" pin="GND@134" pad="134"/>
-<connect gate="-POWER" pin="GND@139" pad="139"/>
-<connect gate="-POWER" pin="GND@140" pad="140"/>
-<connect gate="-POWER" pin="GND@145" pad="145"/>
-<connect gate="-POWER" pin="GND@146" pad="146"/>
-<connect gate="-POWER" pin="GND@15" pad="15"/>
-<connect gate="-POWER" pin="GND@151" pad="151"/>
-<connect gate="-POWER" pin="GND@152" pad="152"/>
-<connect gate="-POWER" pin="GND@16" pad="16"/>
-<connect gate="-POWER" pin="GND@165" pad="165"/>
-<connect gate="-POWER" pin="GND@166" pad="166"/>
-<connect gate="-POWER" pin="GND@171" pad="171"/>
-<connect gate="-POWER" pin="GND@172" pad="172"/>
-<connect gate="-POWER" pin="GND@177" pad="177"/>
-<connect gate="-POWER" pin="GND@185" pad="185"/>
-<connect gate="-POWER" pin="GND@186" pad="186"/>
-<connect gate="-POWER" pin="GND@191" pad="191"/>
-<connect gate="-POWER" pin="GND@192" pad="192"/>
-<connect gate="-POWER" pin="GND@21" pad="21"/>
-<connect gate="-POWER" pin="GND@22" pad="22"/>
-<connect gate="-POWER" pin="GND@27" pad="27"/>
-<connect gate="-POWER" pin="GND@28" pad="28"/>
-<connect gate="-POWER" pin="GND@33" pad="33"/>
-<connect gate="-POWER" pin="GND@34" pad="34"/>
-<connect gate="-POWER" pin="GND@39" pad="39"/>
-<connect gate="-POWER" pin="GND@40" pad="40"/>
-<connect gate="-POWER" pin="GND@45" pad="45"/>
-<connect gate="-POWER" pin="GND@46" pad="46"/>
-<connect gate="-POWER" pin="GND@51" pad="51"/>
-<connect gate="-POWER" pin="GND@52" pad="52"/>
-<connect gate="-POWER" pin="GND@65" pad="65"/>
-<connect gate="-POWER" pin="GND@66" pad="66"/>
-<connect gate="-POWER" pin="GND@71" pad="71"/>
-<connect gate="-POWER" pin="GND@72" pad="72"/>
-<connect gate="-POWER" pin="GND@77" pad="77"/>
-<connect gate="-POWER" pin="GND@85" pad="85"/>
-<connect gate="-POWER" pin="GND@86" pad="86"/>
-<connect gate="-POWER" pin="GND@95" pad="95"/>
-<connect gate="-POWER" pin="GND@96" pad="96"/>
-<connect gate="-POWER" pin="VCCO_13@198" pad="198"/>
-<connect gate="-POWER" pin="VCCO_34@78" pad="78"/>
-<connect gate="-POWER" pin="VCCO_34@79" pad="79"/>
-<connect gate="-POWER" pin="VCCO_34@80" pad="80"/>
-<connect gate="-POWER" pin="VCCO_35@178" pad="178"/>
-<connect gate="-POWER" pin="VCCO_35@179" pad="179"/>
-<connect gate="-POWER" pin="VCCO_35@180" pad="180"/>
-<connect gate="-POWER" pin="VIN_HDR@112" pad="112"/>
-<connect gate="-POWER" pin="VIN_HDR@157" pad="157"/>
-<connect gate="-POWER" pin="VIN_HDR@158" pad="158"/>
-<connect gate="-POWER" pin="VIN_HDR@159" pad="159"/>
-<connect gate="-POWER" pin="VIN_HDR@160" pad="160"/>
-<connect gate="-POWER" pin="VIN_HDR@57" pad="57"/>
-<connect gate="-POWER" pin="VIN_HDR@58" pad="58"/>
-<connect gate="-POWER" pin="VIN_HDR@59" pad="59"/>
-<connect gate="-POWER" pin="VIN_HDR@60" pad="60"/>
-<connect gate="BANK13_00_CC" pin="_N" pad="89"/>
-<connect gate="BANK13_00_CC" pin="_P" pad="87"/>
-<connect gate="BANK13_01_CC" pin="_N" pad="90"/>
-<connect gate="BANK13_01_CC" pin="_P" pad="88"/>
+<connect gate="BANK13_00" pin="_N" pad="89"/>
+<connect gate="BANK13_00" pin="_P" pad="87"/>
+<connect gate="BANK13_01" pin="_N" pad="90"/>
+<connect gate="BANK13_01" pin="_P" pad="88"/>
 <connect gate="BANK13_02" pin="_N" pad="93"/>
 <connect gate="BANK13_02" pin="_P" pad="91"/>
 <connect gate="BANK13_03" pin="_N" pad="94"/>
@@ -1118,14 +1045,14 @@ Any question ? &lt;sergebertet@yahoo.fr&gt;</description>
 <connect gate="JX1_08" pin="_P" pad="35"/>
 <connect gate="JX1_09" pin="_N" pad="38"/>
 <connect gate="JX1_09" pin="_P" pad="36"/>
-<connect gate="JX1_10_CC" pin="_N" pad="43"/>
-<connect gate="JX1_10_CC" pin="_P" pad="41"/>
-<connect gate="JX1_11_CC" pin="_N" pad="44"/>
-<connect gate="JX1_11_CC" pin="_P" pad="42"/>
-<connect gate="JX1_12_CC" pin="_N" pad="49"/>
-<connect gate="JX1_12_CC" pin="_P" pad="47"/>
-<connect gate="JX1_13_CC" pin="_N" pad="50"/>
-<connect gate="JX1_13_CC" pin="_P" pad="48"/>
+<connect gate="JX1_10" pin="_N" pad="43"/>
+<connect gate="JX1_10" pin="_P" pad="41"/>
+<connect gate="JX1_11" pin="_N" pad="44"/>
+<connect gate="JX1_11" pin="_P" pad="42"/>
+<connect gate="JX1_12" pin="_N" pad="49"/>
+<connect gate="JX1_12" pin="_P" pad="47"/>
+<connect gate="JX1_13" pin="_N" pad="50"/>
+<connect gate="JX1_13" pin="_P" pad="48"/>
 <connect gate="JX1_14" pin="_N" pad="55"/>
 <connect gate="JX1_14" pin="_P" pad="53"/>
 <connect gate="JX1_15" pin="_N" pad="56"/>
@@ -1168,14 +1095,14 @@ Any question ? &lt;sergebertet@yahoo.fr&gt;</description>
 <connect gate="JX2_08" pin="_P" pad="141"/>
 <connect gate="JX2_09" pin="_N" pad="144"/>
 <connect gate="JX2_09" pin="_P" pad="142"/>
-<connect gate="JX2_10_CC" pin="_N" pad="149"/>
-<connect gate="JX2_10_CC" pin="_P" pad="147"/>
-<connect gate="JX2_11_CC" pin="_N" pad="150"/>
-<connect gate="JX2_11_CC" pin="_P" pad="148"/>
-<connect gate="JX2_12_CC" pin="_N" pad="155"/>
-<connect gate="JX2_12_CC" pin="_P" pad="153"/>
-<connect gate="JX2_13_CC" pin="_N" pad="156"/>
-<connect gate="JX2_13_CC" pin="_P" pad="154"/>
+<connect gate="JX2_10" pin="_N" pad="149"/>
+<connect gate="JX2_10" pin="_P" pad="147"/>
+<connect gate="JX2_11" pin="_N" pad="150"/>
+<connect gate="JX2_11" pin="_P" pad="148"/>
+<connect gate="JX2_12" pin="_N" pad="155"/>
+<connect gate="JX2_12" pin="_P" pad="153"/>
+<connect gate="JX2_13" pin="_N" pad="156"/>
+<connect gate="JX2_13" pin="_P" pad="154"/>
 <connect gate="JX2_14" pin="_N" pad="163"/>
 <connect gate="JX2_14" pin="_P" pad="161"/>
 <connect gate="JX2_15" pin="_N" pad="164"/>
@@ -1198,16 +1125,89 @@ Any question ? &lt;sergebertet@yahoo.fr&gt;</description>
 <connect gate="JX2_23" pin="_P" pad="188"/>
 <connect gate="JX2_SE" pin="_0" pad="113"/>
 <connect gate="JX2_SE" pin="_1" pad="114"/>
-<connect gate="PMOD" pin="PMOD_D0" pad="101"/>
-<connect gate="PMOD" pin="PMOD_D1" pad="102"/>
-<connect gate="PMOD" pin="PMOD_D2" pad="103"/>
-<connect gate="PMOD" pin="PMOD_D3" pad="104"/>
-<connect gate="PMOD" pin="PMOD_D4" pad="105"/>
-<connect gate="PMOD" pin="PMOD_D5" pad="106"/>
-<connect gate="PMOD" pin="PMOD_D6" pad="107"/>
-<connect gate="PMOD" pin="PMOD_D7" pad="108"/>
 <connect gate="VP_0" pin="_N" pad="99"/>
 <connect gate="VP_0" pin="_P" pad="97"/>
+<connect gate="_CTRL" pin="!CARRIER_SRST" pad="6"/>
+<connect gate="_CTRL" pin="!INIT" pad="109"/>
+<connect gate="_CTRL" pin="!PROGRAM" pad="110"/>
+<connect gate="_CTRL" pin="FPGA_DONE" pad="8"/>
+<connect gate="_CTRL" pin="PG_MODULE" pad="111"/>
+<connect gate="_CTRL" pin="PWR_ENABLE" pad="5"/>
+<connect gate="_JTAG" pin="TCK" pad="1"/>
+<connect gate="_JTAG" pin="TDI" pad="4"/>
+<connect gate="_JTAG" pin="TDO" pad="3"/>
+<connect gate="_JTAG" pin="TMS" pad="2"/>
+<connect gate="_PMOD" pin="PMOD_D0" pad="101"/>
+<connect gate="_PMOD" pin="PMOD_D1" pad="102"/>
+<connect gate="_PMOD" pin="PMOD_D2" pad="103"/>
+<connect gate="_PMOD" pin="PMOD_D3" pad="104"/>
+<connect gate="_PMOD" pin="PMOD_D4" pad="105"/>
+<connect gate="_PMOD" pin="PMOD_D5" pad="106"/>
+<connect gate="_PMOD" pin="PMOD_D6" pad="107"/>
+<connect gate="_PMOD" pin="PMOD_D7" pad="108"/>
+<connect gate="_POWER" pin="FPGA_VBAT" pad="7"/>
+<connect gate="_POWER" pin="GND@115" pad="115"/>
+<connect gate="_POWER" pin="GND@116" pad="116"/>
+<connect gate="_POWER" pin="GND@121" pad="121"/>
+<connect gate="_POWER" pin="GND@122" pad="122"/>
+<connect gate="_POWER" pin="GND@127" pad="127"/>
+<connect gate="_POWER" pin="GND@128" pad="128"/>
+<connect gate="_POWER" pin="GND@133" pad="133"/>
+<connect gate="_POWER" pin="GND@134" pad="134"/>
+<connect gate="_POWER" pin="GND@139" pad="139"/>
+<connect gate="_POWER" pin="GND@140" pad="140"/>
+<connect gate="_POWER" pin="GND@145" pad="145"/>
+<connect gate="_POWER" pin="GND@146" pad="146"/>
+<connect gate="_POWER" pin="GND@15" pad="15"/>
+<connect gate="_POWER" pin="GND@151" pad="151"/>
+<connect gate="_POWER" pin="GND@152" pad="152"/>
+<connect gate="_POWER" pin="GND@16" pad="16"/>
+<connect gate="_POWER" pin="GND@165" pad="165"/>
+<connect gate="_POWER" pin="GND@166" pad="166"/>
+<connect gate="_POWER" pin="GND@171" pad="171"/>
+<connect gate="_POWER" pin="GND@172" pad="172"/>
+<connect gate="_POWER" pin="GND@177" pad="177"/>
+<connect gate="_POWER" pin="GND@185" pad="185"/>
+<connect gate="_POWER" pin="GND@186" pad="186"/>
+<connect gate="_POWER" pin="GND@191" pad="191"/>
+<connect gate="_POWER" pin="GND@192" pad="192"/>
+<connect gate="_POWER" pin="GND@21" pad="21"/>
+<connect gate="_POWER" pin="GND@22" pad="22"/>
+<connect gate="_POWER" pin="GND@27" pad="27"/>
+<connect gate="_POWER" pin="GND@28" pad="28"/>
+<connect gate="_POWER" pin="GND@33" pad="33"/>
+<connect gate="_POWER" pin="GND@34" pad="34"/>
+<connect gate="_POWER" pin="GND@39" pad="39"/>
+<connect gate="_POWER" pin="GND@40" pad="40"/>
+<connect gate="_POWER" pin="GND@45" pad="45"/>
+<connect gate="_POWER" pin="GND@46" pad="46"/>
+<connect gate="_POWER" pin="GND@51" pad="51"/>
+<connect gate="_POWER" pin="GND@52" pad="52"/>
+<connect gate="_POWER" pin="GND@65" pad="65"/>
+<connect gate="_POWER" pin="GND@66" pad="66"/>
+<connect gate="_POWER" pin="GND@71" pad="71"/>
+<connect gate="_POWER" pin="GND@72" pad="72"/>
+<connect gate="_POWER" pin="GND@77" pad="77"/>
+<connect gate="_POWER" pin="GND@85" pad="85"/>
+<connect gate="_POWER" pin="GND@86" pad="86"/>
+<connect gate="_POWER" pin="GND@95" pad="95"/>
+<connect gate="_POWER" pin="GND@96" pad="96"/>
+<connect gate="_POWER" pin="VCCO_13@198" pad="198"/>
+<connect gate="_POWER" pin="VCCO_34@78" pad="78"/>
+<connect gate="_POWER" pin="VCCO_34@79" pad="79"/>
+<connect gate="_POWER" pin="VCCO_34@80" pad="80"/>
+<connect gate="_POWER" pin="VCCO_35@178" pad="178"/>
+<connect gate="_POWER" pin="VCCO_35@179" pad="179"/>
+<connect gate="_POWER" pin="VCCO_35@180" pad="180"/>
+<connect gate="_POWER" pin="VIN_HDR@112" pad="112"/>
+<connect gate="_POWER" pin="VIN_HDR@157" pad="157"/>
+<connect gate="_POWER" pin="VIN_HDR@158" pad="158"/>
+<connect gate="_POWER" pin="VIN_HDR@159" pad="159"/>
+<connect gate="_POWER" pin="VIN_HDR@160" pad="160"/>
+<connect gate="_POWER" pin="VIN_HDR@57" pad="57"/>
+<connect gate="_POWER" pin="VIN_HDR@58" pad="58"/>
+<connect gate="_POWER" pin="VIN_HDR@59" pad="59"/>
+<connect gate="_POWER" pin="VIN_HDR@60" pad="60"/>
 </connects>
 <technologies>
 <technology name=""/>

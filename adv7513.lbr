@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -255,19 +255,19 @@ COMPLIANT TO JEDEC STANDARDS MS-026-BCD-HD&lt;br&gt;</description>
 <symbols>
 <symbol name="ADV7513">
 <pin name="VSYNC" x="-17.78" y="25.4" length="middle" direction="in"/>
-<pin name="TX0_P" x="17.78" y="22.86" length="middle" direction="out" rot="R180"/>
-<pin name="CEC" x="17.78" y="-17.78" length="middle" rot="R180"/>
+<pin name="TX0_P" x="17.78" y="25.4" length="middle" direction="out" rot="R180"/>
+<pin name="CEC" x="17.78" y="-10.16" length="middle" rot="R180"/>
 <pin name="CEC_CLK" x="17.78" y="-15.24" length="middle" direction="in" function="clk" rot="R180"/>
 <pin name="TXC_P" x="17.78" y="33.02" length="middle" direction="out" function="clk" rot="R180"/>
 <pin name="TXC_N" x="17.78" y="30.48" length="middle" direction="out" function="clk" rot="R180"/>
-<pin name="TX0_N" x="17.78" y="20.32" length="middle" direction="out" rot="R180"/>
-<pin name="TX1_P" x="17.78" y="15.24" length="middle" direction="out" rot="R180"/>
-<pin name="TX1_N" x="17.78" y="12.7" length="middle" direction="out" rot="R180"/>
-<pin name="TX2_P" x="17.78" y="7.62" length="middle" direction="out" rot="R180"/>
-<pin name="TX2_N" x="17.78" y="5.08" length="middle" direction="out" rot="R180"/>
-<pin name="HPD" x="17.78" y="0" length="middle" direction="in" rot="R180"/>
-<pin name="DDCSDA" x="17.78" y="-10.16" length="middle" rot="R180"/>
-<pin name="DDCSCL" x="17.78" y="-7.62" length="middle" direction="out" function="clk" rot="R180"/>
+<pin name="TX0_N" x="17.78" y="22.86" length="middle" direction="out" rot="R180"/>
+<pin name="TX1_P" x="17.78" y="17.78" length="middle" direction="out" rot="R180"/>
+<pin name="TX1_N" x="17.78" y="15.24" length="middle" direction="out" rot="R180"/>
+<pin name="TX2_P" x="17.78" y="10.16" length="middle" direction="out" rot="R180"/>
+<pin name="TX2_N" x="17.78" y="7.62" length="middle" direction="out" rot="R180"/>
+<pin name="HPD" x="17.78" y="-5.08" length="middle" direction="in" rot="R180"/>
+<pin name="DDCSDA" x="17.78" y="0" length="middle" rot="R180"/>
+<pin name="DDCSCL" x="17.78" y="2.54" length="middle" direction="out" function="clk" rot="R180"/>
 <pin name="CLK" x="-17.78" y="33.02" length="middle" function="clk"/>
 <pin name="HSYNC" x="-17.78" y="27.94" length="middle" direction="in"/>
 <pin name="DE" x="-17.78" y="30.48" length="middle" direction="in"/>

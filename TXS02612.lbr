@@ -160,27 +160,27 @@ http://www.ti.com/lit/ds/symlink/txs02612.pdf</description>
 <wire x1="15.24" y1="-22.86" x2="-15.24" y2="-22.86" width="0.254" layer="94"/>
 <wire x1="-15.24" y1="-22.86" x2="-15.24" y2="22.86" width="0.254" layer="94"/>
 <pin name="SEL" x="-20.32" y="-2.54" length="middle" direction="in"/>
-<pin name="CMD_A" x="-20.32" y="15.24" length="middle"/>
-<pin name="DAT0_A" x="-20.32" y="10.16" length="middle"/>
-<pin name="DAT1_A" x="-20.32" y="7.62" length="middle"/>
-<pin name="DAT2_A" x="-20.32" y="5.08" length="middle"/>
-<pin name="DAT3_A" x="-20.32" y="2.54" length="middle"/>
-<pin name="CMD_B0" x="20.32" y="15.24" length="middle" rot="R180"/>
-<pin name="DAT0_B0" x="20.32" y="10.16" length="middle" rot="R180"/>
-<pin name="DAT1_B0" x="20.32" y="7.62" length="middle" rot="R180"/>
-<pin name="DAT2_B0" x="20.32" y="5.08" length="middle" rot="R180"/>
-<pin name="DAT3_B0" x="20.32" y="2.54" length="middle" rot="R180"/>
-<pin name="CMD_B1" x="20.32" y="-5.08" length="middle" rot="R180"/>
-<pin name="DAT0_B1" x="20.32" y="-10.16" length="middle" rot="R180"/>
-<pin name="DAT1_B1" x="20.32" y="-12.7" length="middle" rot="R180"/>
-<pin name="DAT2_B1" x="20.32" y="-15.24" length="middle" rot="R180"/>
-<pin name="DAT3_B1" x="20.32" y="-17.78" length="middle" rot="R180"/>
-<pin name="CLK_A" x="-20.32" y="17.78" length="middle" direction="in" function="clk"/>
-<pin name="CLK_B0" x="20.32" y="17.78" length="middle" direction="out" function="clk" rot="R180"/>
-<pin name="CLK_B1" x="20.32" y="-2.54" length="middle" direction="out" function="clk" rot="R180"/>
-<pin name="VCC_A" x="-2.54" y="27.94" length="middle" direction="pwr" rot="R270"/>
-<pin name="VCC_B0" x="0" y="27.94" length="middle" direction="pwr" rot="R270"/>
-<pin name="VCC_B1" x="2.54" y="27.94" length="middle" direction="pwr" rot="R270"/>
+<pin name="A_CMD" x="-20.32" y="15.24" length="middle"/>
+<pin name="A_DAT0" x="-20.32" y="10.16" length="middle"/>
+<pin name="A_DAT1" x="-20.32" y="7.62" length="middle"/>
+<pin name="A_DAT2" x="-20.32" y="5.08" length="middle"/>
+<pin name="A_DAT3" x="-20.32" y="2.54" length="middle"/>
+<pin name="B0_CMD" x="20.32" y="15.24" length="middle" rot="R180"/>
+<pin name="B0_DAT0" x="20.32" y="10.16" length="middle" rot="R180"/>
+<pin name="B0_DAT1" x="20.32" y="7.62" length="middle" rot="R180"/>
+<pin name="B0_DAT2" x="20.32" y="5.08" length="middle" rot="R180"/>
+<pin name="B0_DAT3" x="20.32" y="2.54" length="middle" rot="R180"/>
+<pin name="B1_CMD" x="20.32" y="-5.08" length="middle" rot="R180"/>
+<pin name="B1_DAT0" x="20.32" y="-10.16" length="middle" rot="R180"/>
+<pin name="B1_DAT1" x="20.32" y="-12.7" length="middle" rot="R180"/>
+<pin name="B1_DAT2" x="20.32" y="-15.24" length="middle" rot="R180"/>
+<pin name="B1_DAT3" x="20.32" y="-17.78" length="middle" rot="R180"/>
+<pin name="A_CLK" x="-20.32" y="17.78" length="middle" direction="in" function="clk"/>
+<pin name="B0_CLK" x="20.32" y="17.78" length="middle" direction="out" function="clk" rot="R180"/>
+<pin name="B1_CLK" x="20.32" y="-2.54" length="middle" direction="out" function="clk" rot="R180"/>
+<pin name="A_VCC" x="-2.54" y="27.94" length="middle" direction="pwr" rot="R270"/>
+<pin name="B0_VCC" x="0" y="27.94" length="middle" direction="pwr" rot="R270"/>
+<pin name="B1_VCC" x="2.54" y="27.94" length="middle" direction="pwr" rot="R270"/>
 <pin name="GND@11" x="0" y="-27.94" length="middle" direction="pwr" rot="R90"/>
 <pin name="GND@2" x="-2.54" y="-27.94" length="middle" direction="pwr" rot="R90"/>
 <pin name="ECPAD" x="-10.16" y="-27.94" length="middle" direction="pwr" rot="R90"/>
@@ -194,31 +194,31 @@ http://www.ti.com/lit/ds/symlink/txs02612.pdf</description>
 <devices>
 <device name="" package="S-PWQFN-N24">
 <connects>
-<connect gate="G$1" pin="CLK_A" pad="9"/>
-<connect gate="G$1" pin="CLK_B0" pad="19"/>
-<connect gate="G$1" pin="CLK_B1" pad="13"/>
-<connect gate="G$1" pin="CMD_A" pad="4"/>
-<connect gate="G$1" pin="CMD_B0" pad="20"/>
-<connect gate="G$1" pin="CMD_B1" pad="12"/>
-<connect gate="G$1" pin="DAT0_A" pad="6"/>
-<connect gate="G$1" pin="DAT0_B0" pad="18"/>
-<connect gate="G$1" pin="DAT0_B1" pad="14"/>
-<connect gate="G$1" pin="DAT1_A" pad="7"/>
-<connect gate="G$1" pin="DAT1_B0" pad="16"/>
-<connect gate="G$1" pin="DAT1_B1" pad="15"/>
-<connect gate="G$1" pin="DAT2_A" pad="1"/>
-<connect gate="G$1" pin="DAT2_B0" pad="23"/>
-<connect gate="G$1" pin="DAT2_B1" pad="8"/>
-<connect gate="G$1" pin="DAT3_A" pad="3"/>
-<connect gate="G$1" pin="DAT3_B0" pad="22"/>
-<connect gate="G$1" pin="DAT3_B1" pad="10"/>
+<connect gate="G$1" pin="A_CLK" pad="9"/>
+<connect gate="G$1" pin="A_CMD" pad="4"/>
+<connect gate="G$1" pin="A_DAT0" pad="6"/>
+<connect gate="G$1" pin="A_DAT1" pad="7"/>
+<connect gate="G$1" pin="A_DAT2" pad="1"/>
+<connect gate="G$1" pin="A_DAT3" pad="3"/>
+<connect gate="G$1" pin="A_VCC" pad="5"/>
+<connect gate="G$1" pin="B0_CLK" pad="19"/>
+<connect gate="G$1" pin="B0_CMD" pad="20"/>
+<connect gate="G$1" pin="B0_DAT0" pad="18"/>
+<connect gate="G$1" pin="B0_DAT1" pad="16"/>
+<connect gate="G$1" pin="B0_DAT2" pad="23"/>
+<connect gate="G$1" pin="B0_DAT3" pad="22"/>
+<connect gate="G$1" pin="B0_VCC" pad="21"/>
+<connect gate="G$1" pin="B1_CLK" pad="13"/>
+<connect gate="G$1" pin="B1_CMD" pad="12"/>
+<connect gate="G$1" pin="B1_DAT0" pad="14"/>
+<connect gate="G$1" pin="B1_DAT1" pad="15"/>
+<connect gate="G$1" pin="B1_DAT2" pad="8"/>
+<connect gate="G$1" pin="B1_DAT3" pad="10"/>
+<connect gate="G$1" pin="B1_VCC" pad="17"/>
 <connect gate="G$1" pin="ECPAD" pad="EPAD"/>
 <connect gate="G$1" pin="GND@11" pad="11"/>
 <connect gate="G$1" pin="GND@2" pad="2"/>
 <connect gate="G$1" pin="SEL" pad="24"/>
-<connect gate="G$1" pin="VCC_A" pad="5"/>
-<connect gate="G$1" pin="VCC_B0" pad="21"/>
-<connect gate="G$1" pin="VCC_B1" pad="17"/>
 </connects>
 <technologies>
 <technology name=""/>

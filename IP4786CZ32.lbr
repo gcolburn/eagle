@@ -58,10 +58,6 @@
 <library>
 <packages>
 <package name="SOT617-3">
-<wire x1="-1.8" y1="1.8" x2="1.8" y2="1.8" width="0.127" layer="51"/>
-<wire x1="1.8" y1="1.8" x2="1.8" y2="-1.8" width="0.127" layer="51"/>
-<wire x1="1.8" y1="-1.8" x2="-1.8" y2="-1.8" width="0.127" layer="51"/>
-<wire x1="-1.8" y1="-1.8" x2="-1.8" y2="1.8" width="0.127" layer="51"/>
 <wire x1="-2.5" y1="2.5" x2="2.5" y2="2.5" width="0.127" layer="51"/>
 <wire x1="2.5" y1="2.5" x2="2.5" y2="-2.5" width="0.127" layer="51"/>
 <wire x1="2.5" y1="-2.5" x2="-2.5" y2="-2.5" width="0.127" layer="51"/>
@@ -107,6 +103,7 @@
 <wire x1="-2.63" y1="2.03" x2="-2.63" y2="2.63" width="0.127" layer="100"/>
 <wire x1="-2.63" y1="2.63" x2="-2.03" y2="2.63" width="0.127" layer="100"/>
 <circle x="-3.28" y="2.38" radius="0.28844375" width="0" layer="100"/>
+<smd name="EPAD" x="0" y="0" dx="3.5" dy="3.5" layer="1"/>
 </package>
 </packages>
 <symbols>
@@ -161,14 +158,15 @@
 <pin name="CEC_STBY" x="-12.7" y="2.54" length="middle" direction="in"/>
 </symbol>
 <symbol name="IP4786CZ32_PWR">
-<wire x1="-10.16" y1="10.16" x2="10.16" y2="10.16" width="0.254" layer="94"/>
-<wire x1="10.16" y1="10.16" x2="10.16" y2="-10.16" width="0.254" layer="94"/>
-<wire x1="10.16" y1="-10.16" x2="-10.16" y2="-10.16" width="0.254" layer="94"/>
-<wire x1="-10.16" y1="-10.16" x2="-10.16" y2="10.16" width="0.254" layer="94"/>
-<pin name="VCC5V@11" x="-5.08" y="15.24" length="middle" direction="pwr" rot="R270"/>
-<pin name="C_5V@13" x="0" y="15.24" length="middle" direction="pwr" rot="R270"/>
-<pin name="S_VCC@27" x="5.08" y="15.24" length="middle" direction="pwr" rot="R270"/>
-<text x="-7.62" y="-7.62" size="1.27" layer="94">IP4786CZ32 PWR</text>
+<wire x1="-12.7" y1="10.16" x2="12.7" y2="10.16" width="0.254" layer="94"/>
+<wire x1="12.7" y1="10.16" x2="12.7" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-12.7" x2="-12.7" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="-12.7" x2="-12.7" y2="10.16" width="0.254" layer="94"/>
+<pin name="VCC5V@11" x="-7.62" y="15.24" length="middle" direction="pwr" rot="R270"/>
+<pin name="C_5V@13" x="-2.54" y="15.24" length="middle" direction="pwr" rot="R270"/>
+<pin name="S_VCC@27" x="2.54" y="15.24" length="middle" direction="pwr" rot="R270"/>
+<text x="-5.08" y="-10.16" size="1.27" layer="94">IP4786CZ32 PWR</text>
+<pin name="EPAD" x="-7.62" y="-17.78" length="middle" direction="pwr" rot="R90"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -213,6 +211,7 @@
 <connect gate="G$3" pin="NC@30" pad="30"/>
 <connect gate="G$3" pin="NC@31" pad="31"/>
 <connect gate="G$4" pin="C_5V@13" pad="13"/>
+<connect gate="G$4" pin="EPAD" pad="EPAD"/>
 <connect gate="G$4" pin="S_VCC@27" pad="27"/>
 <connect gate="G$4" pin="VCC5V@11" pad="11"/>
 </connects>

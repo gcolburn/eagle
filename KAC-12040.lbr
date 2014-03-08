@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.5.2">
+<eagle version="6.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -670,6 +670,873 @@ The sensor ceramic footprint and active area (4000x3000 pixels) are drawn as wel
 <wire x1="-19.36" y1="-1" x2="-18.64" y2="-1" width="0.127" layer="102"/>
 <wire x1="-19.36" y1="1" x2="-18.64" y2="1" width="0.127" layer="102"/>
 </package>
+<package name="FOXCONN-754">
+<description>Package for FoxConn 754 ZIF Socket SM roller ball socket used with the KAC-12040 sensor. 
+The sensor ceramic footprint and active area (4000x3000 pixels) are drawn as well for placement.</description>
+<wire x1="-21" y1="30.22" x2="21" y2="30.22" width="0.127" layer="21"/>
+<smd name="A01" x="-16.51" y="17.78" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="A02" x="-15.24" y="17.78" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="A03" x="-13.97" y="17.78" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="A04" x="-12.7" y="17.78" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="A05" x="-11.43" y="17.78" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="A06" x="-10.16" y="17.78" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="A07" x="-8.89" y="17.78" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="A08" x="-7.62" y="17.78" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="A09" x="-6.35" y="17.78" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="A10" x="-5.08" y="17.78" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="A11" x="-3.81" y="17.78" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="A12" x="-2.54" y="17.78" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="A13" x="-1.27" y="17.78" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="A14" x="0" y="17.78" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="A15" x="1.27" y="17.78" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="A16" x="2.54" y="17.78" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="A17" x="3.81" y="17.78" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="A18" x="5.08" y="17.78" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="A19" x="6.35" y="17.78" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="A20" x="7.62" y="17.78" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="A21" x="8.89" y="17.78" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="A22" x="10.16" y="17.78" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="A23" x="11.43" y="17.78" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="A24" x="12.7" y="17.78" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="A25" x="13.97" y="17.78" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="A26" x="15.24" y="17.78" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="B01" x="-16.51" y="16.51" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="B02" x="-15.24" y="16.51" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="B03" x="-13.97" y="16.51" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="B04" x="-12.7" y="16.51" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="B05" x="-11.43" y="16.51" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="B06" x="-10.16" y="16.51" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="B07" x="-8.89" y="16.51" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="B08" x="-7.62" y="16.51" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="B09" x="-6.35" y="16.51" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="B10" x="-5.08" y="16.51" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="B11" x="-3.81" y="16.51" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="B12" x="-2.54" y="16.51" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="B13" x="-1.27" y="16.51" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="B14" x="0" y="16.51" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="B15" x="1.27" y="16.51" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="B16" x="2.54" y="16.51" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="B17" x="3.81" y="16.51" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="B18" x="5.08" y="16.51" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="B19" x="6.35" y="16.51" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="B20" x="7.62" y="16.51" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="B21" x="8.89" y="16.51" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="B22" x="10.16" y="16.51" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="B23" x="11.43" y="16.51" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="B24" x="12.7" y="16.51" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="B25" x="13.97" y="16.51" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="B26" x="15.24" y="16.51" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="B27" x="16.51" y="16.51" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="C01" x="-16.51" y="15.24" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="C02" x="-15.24" y="15.24" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="C03" x="-13.97" y="15.24" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="C04" x="-12.7" y="15.24" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="C05" x="-11.43" y="15.24" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="C06" x="-10.16" y="15.24" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="C07" x="-8.89" y="15.24" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="C08" x="-7.62" y="15.24" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="C09" x="-6.35" y="15.24" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="C10" x="-5.08" y="15.24" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="C11" x="-3.81" y="15.24" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="C12" x="-2.54" y="15.24" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="C13" x="-1.27" y="15.24" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="C14" x="0" y="15.24" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="C15" x="1.27" y="15.24" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="C16" x="2.54" y="15.24" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="C17" x="3.81" y="15.24" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="C18" x="5.08" y="15.24" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="C19" x="6.35" y="15.24" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="C20" x="7.62" y="15.24" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="C21" x="8.89" y="15.24" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="C22" x="10.16" y="15.24" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="C23" x="11.43" y="15.24" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="C24" x="12.7" y="15.24" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="C25" x="13.97" y="15.24" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="C26" x="15.24" y="15.24" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="C27" x="16.51" y="15.24" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="D01" x="-16.51" y="13.97" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="D02" x="-15.24" y="13.97" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="D03" x="-13.97" y="13.97" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="D04" x="-12.7" y="13.97" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="D05" x="-11.43" y="13.97" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="D06" x="-10.16" y="13.97" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="D07" x="-8.89" y="13.97" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="D08" x="-7.62" y="13.97" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="D09" x="-6.35" y="13.97" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="D10" x="-5.08" y="13.97" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="D11" x="-3.81" y="13.97" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="D12" x="-2.54" y="13.97" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="D13" x="-1.27" y="13.97" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="D14" x="0" y="13.97" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="D15" x="1.27" y="13.97" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="D16" x="2.54" y="13.97" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="D17" x="3.81" y="13.97" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="D18" x="5.08" y="13.97" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="D19" x="6.35" y="13.97" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="D20" x="7.62" y="13.97" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="D21" x="8.89" y="13.97" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="D22" x="10.16" y="13.97" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="D23" x="11.43" y="13.97" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="D24" x="12.7" y="13.97" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="D25" x="13.97" y="13.97" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="D26" x="15.24" y="13.97" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="D27" x="16.51" y="13.97" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="E01" x="-16.51" y="12.7" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="E02" x="-15.24" y="12.7" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="E03" x="-13.97" y="12.7" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="E04" x="-12.7" y="12.7" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="E05" x="-11.43" y="12.7" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="E06" x="-10.16" y="12.7" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="E07" x="-8.89" y="12.7" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="E08" x="-7.62" y="12.7" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="E09" x="-6.35" y="12.7" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="E10" x="-5.08" y="12.7" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="E11" x="-3.81" y="12.7" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="E12" x="-2.54" y="12.7" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="E13" x="-1.27" y="12.7" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="E14" x="0" y="12.7" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="E15" x="1.27" y="12.7" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="E16" x="2.54" y="12.7" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="E17" x="3.81" y="12.7" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="E18" x="5.08" y="12.7" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="E19" x="6.35" y="12.7" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="E20" x="7.62" y="12.7" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="E21" x="8.89" y="12.7" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="E22" x="10.16" y="12.7" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="E23" x="11.43" y="12.7" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="E24" x="12.7" y="12.7" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="E25" x="13.97" y="12.7" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="E26" x="15.24" y="12.7" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="E27" x="16.51" y="12.7" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="AA01" x="-16.51" y="-12.7" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="AA02" x="-15.24" y="-12.7" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="AA03" x="-13.97" y="-12.7" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="AA04" x="-12.7" y="-12.7" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="AA05" x="-11.43" y="-12.7" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="AA06" x="-10.16" y="-12.7" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="AA07" x="-8.89" y="-12.7" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="AA08" x="-7.62" y="-12.7" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="AA09" x="-6.35" y="-12.7" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="AA10" x="-5.08" y="-12.7" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="AA11" x="-3.81" y="-12.7" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="AA12" x="-2.54" y="-12.7" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="AA13" x="-1.27" y="-12.7" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="AA14" x="0" y="-12.7" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="AA15" x="1.27" y="-12.7" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="AA16" x="2.54" y="-12.7" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="AA17" x="3.81" y="-12.7" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="AA18" x="5.08" y="-12.7" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="AA19" x="6.35" y="-12.7" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="AA20" x="7.62" y="-12.7" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="AA21" x="8.89" y="-12.7" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="AA22" x="10.16" y="-12.7" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="AA23" x="11.43" y="-12.7" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="AA24" x="12.7" y="-12.7" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="AA25" x="13.97" y="-12.7" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="AA26" x="15.24" y="-12.7" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="AA27" x="16.51" y="-12.7" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="AB01" x="-16.51" y="-13.97" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="AB02" x="-15.24" y="-13.97" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="AB03" x="-13.97" y="-13.97" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="AB04" x="-12.7" y="-13.97" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="AB05" x="-11.43" y="-13.97" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="AB06" x="-10.16" y="-13.97" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="AB07" x="-8.89" y="-13.97" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="AB08" x="-7.62" y="-13.97" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="AB09" x="-6.35" y="-13.97" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="AB10" x="-5.08" y="-13.97" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="AB11" x="-3.81" y="-13.97" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="AB12" x="-2.54" y="-13.97" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="AB13" x="-1.27" y="-13.97" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="AB14" x="0" y="-13.97" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="AB15" x="1.27" y="-13.97" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="AB16" x="2.54" y="-13.97" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="AB17" x="3.81" y="-13.97" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="AB18" x="5.08" y="-13.97" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="AB19" x="6.35" y="-13.97" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="AB20" x="7.62" y="-13.97" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="AB21" x="8.89" y="-13.97" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="AB22" x="10.16" y="-13.97" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="AB23" x="11.43" y="-13.97" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="AB24" x="12.7" y="-13.97" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="AB25" x="13.97" y="-13.97" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="AB26" x="15.24" y="-13.97" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="AB27" x="16.51" y="-13.97" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="AC01" x="-16.51" y="-15.24" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="AC02" x="-15.24" y="-15.24" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="AC03" x="-13.97" y="-15.24" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="AC04" x="-12.7" y="-15.24" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="AC05" x="-11.43" y="-15.24" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="AC06" x="-10.16" y="-15.24" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="AC07" x="-8.89" y="-15.24" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="AC08" x="-7.62" y="-15.24" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="AC09" x="-6.35" y="-15.24" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="AC10" x="-5.08" y="-15.24" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="AC11" x="-3.81" y="-15.24" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="AC12" x="-2.54" y="-15.24" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="AC13" x="-1.27" y="-15.24" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="AC14" x="0" y="-15.24" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="AC15" x="1.27" y="-15.24" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="AC16" x="2.54" y="-15.24" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="AC17" x="3.81" y="-15.24" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="AC18" x="5.08" y="-15.24" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="AC19" x="6.35" y="-15.24" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="AC20" x="7.62" y="-15.24" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="AC21" x="8.89" y="-15.24" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="AC22" x="10.16" y="-15.24" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="AC23" x="11.43" y="-15.24" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="AC24" x="12.7" y="-15.24" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="AC25" x="13.97" y="-15.24" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="AC26" x="15.24" y="-15.24" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="AC27" x="16.51" y="-15.24" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="AD01" x="-16.51" y="-16.51" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="AD02" x="-15.24" y="-16.51" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="AD03" x="-13.97" y="-16.51" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="AD04" x="-12.7" y="-16.51" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="AD05" x="-11.43" y="-16.51" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="AD06" x="-10.16" y="-16.51" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="AD07" x="-8.89" y="-16.51" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="AD08" x="-7.62" y="-16.51" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="AD09" x="-6.35" y="-16.51" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="AD10" x="-5.08" y="-16.51" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="AD11" x="-3.81" y="-16.51" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="AD12" x="-2.54" y="-16.51" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="AD13" x="-1.27" y="-16.51" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="AD14" x="0" y="-16.51" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="AD15" x="1.27" y="-16.51" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="AD16" x="2.54" y="-16.51" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="AD17" x="3.81" y="-16.51" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="AD18" x="5.08" y="-16.51" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="AD19" x="6.35" y="-16.51" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="AD20" x="7.62" y="-16.51" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="AD21" x="8.89" y="-16.51" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="AD22" x="10.16" y="-16.51" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="AD23" x="11.43" y="-16.51" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="AD24" x="12.7" y="-16.51" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="AD25" x="13.97" y="-16.51" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="AD26" x="15.24" y="-16.51" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="AD27" x="16.51" y="-16.51" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="AE02" x="-15.24" y="-17.78" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="AE03" x="-13.97" y="-17.78" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="AE04" x="-12.7" y="-17.78" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="AE05" x="-11.43" y="-17.78" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="AE06" x="-10.16" y="-17.78" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="AE07" x="-8.89" y="-17.78" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="AE08" x="-7.62" y="-17.78" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="AE09" x="-6.35" y="-17.78" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="AE10" x="-5.08" y="-17.78" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="AE11" x="-3.81" y="-17.78" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="AE12" x="-2.54" y="-17.78" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="AE13" x="-1.27" y="-17.78" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="AE14" x="0" y="-17.78" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="AE15" x="1.27" y="-17.78" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="AE16" x="2.54" y="-17.78" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="AE17" x="3.81" y="-17.78" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="AE18" x="5.08" y="-17.78" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="AE19" x="6.35" y="-17.78" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="AE20" x="7.62" y="-17.78" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="AE21" x="8.89" y="-17.78" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="AE22" x="10.16" y="-17.78" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="AE23" x="11.43" y="-17.78" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="AE24" x="12.7" y="-17.78" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="AE25" x="13.97" y="-17.78" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="AE26" x="15.24" y="-17.78" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<wire x1="21" y1="-22.08" x2="-21" y2="-22.08" width="0.127" layer="21"/>
+<rectangle x1="-9.4" y1="-7.05" x2="9.4" y2="7.05" layer="102"/>
+<wire x1="-21.25" y1="19.05" x2="21.25" y2="19.05" width="0.127" layer="102"/>
+<wire x1="21.25" y1="19.05" x2="21.25" y2="-19.05" width="0.127" layer="102"/>
+<wire x1="21.25" y1="-19.05" x2="-21.25" y2="-19.05" width="0.127" layer="102"/>
+<wire x1="-21.25" y1="-19.05" x2="-21.25" y2="19.05" width="0.127" layer="102"/>
+<circle x="-19.2" y="17.78" radius="0.721109375" width="0" layer="100"/>
+<hole x="-19" y="0" drill="0.6"/>
+<hole x="19" y="0" drill="0.6"/>
+<circle x="-19.2" y="17.78" radius="0.721109375" width="0" layer="100"/>
+<hole x="-19" y="0" drill="0.6"/>
+<hole x="19" y="0" drill="0.6"/>
+<circle x="19" y="0" radius="1" width="0.127" layer="102"/>
+<wire x1="-18.64" y1="1" x2="-18.64" y2="-1" width="0.127" layer="102" curve="-180"/>
+<wire x1="-19.36" y1="-1" x2="-19.36" y2="1" width="0.127" layer="102" curve="-180"/>
+<wire x1="-19.36" y1="-1" x2="-18.64" y2="-1" width="0.127" layer="102"/>
+<wire x1="-21" y1="30.22" x2="-21" y2="-22.08" width="0.127" layer="21"/>
+<wire x1="21" y1="30.22" x2="21" y2="-22.08" width="0.127" layer="21"/>
+<smd name="NC01" x="-17.78" y="16.51" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC02" x="-17.78" y="15.24" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC03" x="-17.78" y="13.97" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC04" x="-17.78" y="12.7" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC05" x="-17.78" y="11.43" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC06" x="-17.78" y="10.16" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC07" x="-17.78" y="8.89" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC08" x="-17.78" y="7.62" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC09" x="-17.78" y="6.35" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC10" x="-17.78" y="5.08" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC11" x="-17.78" y="3.81" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC12" x="-17.78" y="2.54" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC13" x="-17.78" y="1.27" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC14" x="-17.78" y="0" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC15" x="-17.78" y="-1.27" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC16" x="-17.78" y="-2.54" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC17" x="-17.78" y="-3.81" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC18" x="-17.78" y="-5.08" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC19" x="-17.78" y="-6.35" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC20" x="-17.78" y="-7.62" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC21" x="-17.78" y="-8.89" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC22" x="-17.78" y="-10.16" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC23" x="-17.78" y="-11.43" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC24" x="-17.78" y="-12.7" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC25" x="-17.78" y="-13.97" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC26" x="-17.78" y="-15.24" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC27" x="-16.51" y="11.43" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC28" x="-16.51" y="10.16" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC29" x="-16.51" y="8.89" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC30" x="-16.51" y="7.62" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC31" x="-16.51" y="6.35" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC32" x="-16.51" y="5.08" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC33" x="-16.51" y="3.81" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC34" x="-16.51" y="2.54" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC35" x="-16.51" y="1.27" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC36" x="-16.51" y="0" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC37" x="-16.51" y="-1.27" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC38" x="-16.51" y="-2.54" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC39" x="-16.51" y="-3.81" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC40" x="-16.51" y="-5.08" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC41" x="-16.51" y="-6.35" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC42" x="-16.51" y="-7.62" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC43" x="-16.51" y="-8.89" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC44" x="-16.51" y="-10.16" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC45" x="-16.51" y="-11.43" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC46" x="-15.24" y="11.43" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC47" x="-15.24" y="10.16" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC48" x="-15.24" y="8.89" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC49" x="-15.24" y="7.62" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC50" x="-15.24" y="6.35" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC51" x="-15.24" y="5.08" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC52" x="-15.24" y="3.81" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC53" x="-15.24" y="2.54" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC54" x="-15.24" y="1.27" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC55" x="-15.24" y="0" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC56" x="-15.24" y="-1.27" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC57" x="-15.24" y="-2.54" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC58" x="-15.24" y="-3.81" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC59" x="-15.24" y="-5.08" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC60" x="-15.24" y="-6.35" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC61" x="-15.24" y="-7.62" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC62" x="-15.24" y="-8.89" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC63" x="-15.24" y="-10.16" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC64" x="-15.24" y="-11.43" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC65" x="-13.97" y="11.43" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC66" x="-13.97" y="10.16" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC67" x="-13.97" y="8.89" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC68" x="-13.97" y="7.62" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC69" x="-13.97" y="6.35" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC70" x="-13.97" y="5.08" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC71" x="-13.97" y="3.81" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC72" x="-13.97" y="2.54" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC73" x="-13.97" y="1.27" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC74" x="-13.97" y="0" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC75" x="-13.97" y="-1.27" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC76" x="-13.97" y="-2.54" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC77" x="-13.97" y="-3.81" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC78" x="-13.97" y="-5.08" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC79" x="-13.97" y="-6.35" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC80" x="-13.97" y="-7.62" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC81" x="-13.97" y="-8.89" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC82" x="-13.97" y="-10.16" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC83" x="-13.97" y="-11.43" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC84" x="-12.7" y="11.43" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC85" x="-12.7" y="10.16" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC86" x="-12.7" y="8.89" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC87" x="-12.7" y="7.62" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC88" x="-12.7" y="6.35" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC89" x="-12.7" y="5.08" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC90" x="-12.7" y="3.81" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC91" x="-12.7" y="2.54" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC92" x="-12.7" y="1.27" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC93" x="-12.7" y="0" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC94" x="-12.7" y="-1.27" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC95" x="-12.7" y="-2.54" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC96" x="-12.7" y="-3.81" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC97" x="-12.7" y="-5.08" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC98" x="-12.7" y="-6.35" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC99" x="-12.7" y="-7.62" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC100" x="-12.7" y="-8.89" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC101" x="-12.7" y="-10.16" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC102" x="-12.7" y="-11.43" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC103" x="-11.43" y="11.43" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC104" x="-11.43" y="10.16" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC105" x="-11.43" y="8.89" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC106" x="-11.43" y="7.62" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC107" x="-11.43" y="6.35" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC108" x="-11.43" y="5.08" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC109" x="-11.43" y="3.81" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC110" x="-11.43" y="2.54" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC111" x="-11.43" y="1.27" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC112" x="-11.43" y="0" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC113" x="-11.43" y="-1.27" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC114" x="-11.43" y="-2.54" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC115" x="-11.43" y="-3.81" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC116" x="-11.43" y="-5.08" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC117" x="-11.43" y="-6.35" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC118" x="-11.43" y="-7.62" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC119" x="-11.43" y="-8.89" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC120" x="-11.43" y="-10.16" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC121" x="-11.43" y="-11.43" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC122" x="-10.16" y="11.43" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC123" x="-10.16" y="10.16" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC124" x="-10.16" y="8.89" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC125" x="-10.16" y="7.62" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC126" x="-10.16" y="6.35" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC127" x="-10.16" y="5.08" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC128" x="-10.16" y="3.81" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC129" x="-10.16" y="2.54" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC130" x="-10.16" y="1.27" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC131" x="-10.16" y="0" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC132" x="-10.16" y="-1.27" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC133" x="-10.16" y="-2.54" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC134" x="-10.16" y="-3.81" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC135" x="-10.16" y="-5.08" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC136" x="-10.16" y="-6.35" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC137" x="-10.16" y="-7.62" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC138" x="-10.16" y="-8.89" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC139" x="-10.16" y="-10.16" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC140" x="-10.16" y="-11.43" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC141" x="-8.89" y="11.43" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC142" x="-8.89" y="10.16" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC143" x="-8.89" y="8.89" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC144" x="-8.89" y="7.62" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC145" x="-8.89" y="6.35" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC146" x="-8.89" y="5.08" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC147" x="-8.89" y="3.81" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC148" x="-8.89" y="2.54" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC149" x="-8.89" y="1.27" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC150" x="-8.89" y="0" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC151" x="-8.89" y="-1.27" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC152" x="-8.89" y="-2.54" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC153" x="-8.89" y="-3.81" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC154" x="-8.89" y="-5.08" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC155" x="-8.89" y="-6.35" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC156" x="-8.89" y="-7.62" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC157" x="-8.89" y="-8.89" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC158" x="-8.89" y="-10.16" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC159" x="-8.89" y="-11.43" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC160" x="-7.62" y="11.43" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC161" x="-7.62" y="10.16" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC162" x="-7.62" y="8.89" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC163" x="-7.62" y="7.62" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC164" x="-7.62" y="6.35" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC165" x="-7.62" y="5.08" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC166" x="-7.62" y="3.81" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC167" x="-7.62" y="2.54" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC168" x="-7.62" y="1.27" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC169" x="-7.62" y="0" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC170" x="-7.62" y="-1.27" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC171" x="-7.62" y="-2.54" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC172" x="-7.62" y="-3.81" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC173" x="-7.62" y="-5.08" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC174" x="-7.62" y="-6.35" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC175" x="-7.62" y="-7.62" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC176" x="-7.62" y="-8.89" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC177" x="-7.62" y="-10.16" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC178" x="-7.62" y="-11.43" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC179" x="-6.35" y="11.43" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC180" x="-6.35" y="10.16" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC181" x="-6.35" y="8.89" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC182" x="-6.35" y="7.62" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC183" x="-6.35" y="6.35" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC184" x="-6.35" y="5.08" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC185" x="-6.35" y="3.81" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC186" x="-6.35" y="2.54" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC187" x="-6.35" y="1.27" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC188" x="-6.35" y="0" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC189" x="-6.35" y="-1.27" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC190" x="-6.35" y="-2.54" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC191" x="-6.35" y="-3.81" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC192" x="-6.35" y="-5.08" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC193" x="-6.35" y="-6.35" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC194" x="-6.35" y="-7.62" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC195" x="-6.35" y="-8.89" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC196" x="-6.35" y="-10.16" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC197" x="-6.35" y="-11.43" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC198" x="-5.08" y="11.43" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC199" x="-5.08" y="10.16" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC200" x="-5.08" y="8.89" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC201" x="-5.08" y="7.62" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC202" x="-5.08" y="6.35" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC203" x="-5.08" y="5.08" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC204" x="-5.08" y="3.81" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC205" x="-5.08" y="2.54" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC206" x="-5.08" y="1.27" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC207" x="-5.08" y="0" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC208" x="-5.08" y="-1.27" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC209" x="-5.08" y="-2.54" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC210" x="-5.08" y="-3.81" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC211" x="-5.08" y="-5.08" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC212" x="-5.08" y="-6.35" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC213" x="-5.08" y="-7.62" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC214" x="-5.08" y="-8.89" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC215" x="-5.08" y="-10.16" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC216" x="-5.08" y="-11.43" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC217" x="-3.81" y="11.43" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC218" x="-3.81" y="10.16" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC219" x="-3.81" y="8.89" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC220" x="-3.81" y="7.62" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC221" x="-3.81" y="6.35" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC222" x="-3.81" y="5.08" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC223" x="-3.81" y="3.81" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC224" x="-3.81" y="2.54" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC225" x="-3.81" y="1.27" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC226" x="-3.81" y="0" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC227" x="-3.81" y="-1.27" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC228" x="-3.81" y="-2.54" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC229" x="-3.81" y="-3.81" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC230" x="-3.81" y="-5.08" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC231" x="-3.81" y="-6.35" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC232" x="-3.81" y="-7.62" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC233" x="-3.81" y="-8.89" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC234" x="-3.81" y="-10.16" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC235" x="-3.81" y="-11.43" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC236" x="-2.54" y="11.43" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC237" x="-2.54" y="10.16" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC238" x="-2.54" y="8.89" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC239" x="-2.54" y="7.62" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC240" x="-2.54" y="6.35" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC241" x="-2.54" y="5.08" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC242" x="-2.54" y="3.81" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC243" x="-2.54" y="2.54" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC244" x="-2.54" y="1.27" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC245" x="-2.54" y="0" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC246" x="-2.54" y="-1.27" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC247" x="-2.54" y="-2.54" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC248" x="-2.54" y="-3.81" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC249" x="-2.54" y="-5.08" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC250" x="-2.54" y="-6.35" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC251" x="-2.54" y="-7.62" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC252" x="-2.54" y="-8.89" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC253" x="-2.54" y="-10.16" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC254" x="-2.54" y="-11.43" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC255" x="-1.27" y="11.43" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC256" x="-1.27" y="10.16" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC257" x="-1.27" y="8.89" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC258" x="-1.27" y="7.62" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC259" x="-1.27" y="6.35" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC260" x="-1.27" y="5.08" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC261" x="-1.27" y="3.81" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC262" x="-1.27" y="2.54" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC263" x="-1.27" y="1.27" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC264" x="-1.27" y="0" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC265" x="-1.27" y="-1.27" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC266" x="-1.27" y="-2.54" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC267" x="-1.27" y="-3.81" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC268" x="-1.27" y="-5.08" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC269" x="-1.27" y="-6.35" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC270" x="-1.27" y="-7.62" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC271" x="-1.27" y="-8.89" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC272" x="-1.27" y="-10.16" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC273" x="-1.27" y="-11.43" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC274" x="0" y="11.43" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC275" x="0" y="10.16" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC276" x="0" y="8.89" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC277" x="0" y="7.62" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC278" x="0" y="6.35" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC279" x="0" y="5.08" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC280" x="0" y="3.81" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC281" x="0" y="2.54" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC282" x="0" y="1.27" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC283" x="0" y="0" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC284" x="0" y="-1.27" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC285" x="0" y="-2.54" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC286" x="0" y="-3.81" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC287" x="0" y="-5.08" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC288" x="0" y="-6.35" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC289" x="0" y="-7.62" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC290" x="0" y="-8.89" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC291" x="0" y="-10.16" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC292" x="0" y="-11.43" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC293" x="1.27" y="11.43" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC294" x="1.27" y="10.16" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC295" x="1.27" y="8.89" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC296" x="1.27" y="7.62" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC297" x="1.27" y="6.35" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC298" x="1.27" y="5.08" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC299" x="1.27" y="3.81" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC300" x="1.27" y="2.54" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC301" x="1.27" y="1.27" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC302" x="1.27" y="0" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC303" x="1.27" y="-1.27" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC304" x="1.27" y="-2.54" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC305" x="1.27" y="-3.81" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC306" x="1.27" y="-5.08" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC307" x="1.27" y="-6.35" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC308" x="1.27" y="-7.62" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC309" x="1.27" y="-8.89" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC310" x="1.27" y="-10.16" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC311" x="1.27" y="-11.43" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC312" x="2.54" y="11.43" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC313" x="2.54" y="10.16" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC314" x="2.54" y="8.89" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC315" x="2.54" y="7.62" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC316" x="2.54" y="6.35" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC317" x="2.54" y="5.08" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC318" x="2.54" y="3.81" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC319" x="2.54" y="2.54" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC320" x="2.54" y="1.27" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC321" x="2.54" y="0" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC322" x="2.54" y="-1.27" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC323" x="2.54" y="-2.54" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC324" x="2.54" y="-3.81" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC325" x="2.54" y="-5.08" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC326" x="2.54" y="-6.35" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC327" x="2.54" y="-7.62" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC328" x="2.54" y="-8.89" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC329" x="2.54" y="-10.16" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC330" x="2.54" y="-11.43" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC331" x="3.81" y="11.43" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC332" x="3.81" y="10.16" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC333" x="3.81" y="8.89" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC334" x="3.81" y="7.62" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC335" x="3.81" y="6.35" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC336" x="3.81" y="5.08" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC337" x="3.81" y="3.81" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC338" x="3.81" y="2.54" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC339" x="3.81" y="1.27" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC340" x="3.81" y="0" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC341" x="3.81" y="-1.27" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC342" x="3.81" y="-2.54" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC343" x="3.81" y="-3.81" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC344" x="3.81" y="-5.08" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC345" x="3.81" y="-6.35" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC346" x="3.81" y="-7.62" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC347" x="3.81" y="-8.89" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC348" x="3.81" y="-10.16" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC349" x="3.81" y="-11.43" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC350" x="5.08" y="11.43" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC351" x="5.08" y="10.16" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC352" x="5.08" y="8.89" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC353" x="5.08" y="7.62" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC354" x="5.08" y="6.35" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC355" x="5.08" y="5.08" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC356" x="5.08" y="3.81" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC357" x="5.08" y="2.54" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC358" x="5.08" y="1.27" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC359" x="5.08" y="0" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC360" x="5.08" y="-1.27" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC361" x="5.08" y="-2.54" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC362" x="5.08" y="-3.81" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC363" x="5.08" y="-5.08" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC364" x="5.08" y="-6.35" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC365" x="5.08" y="-7.62" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC366" x="5.08" y="-8.89" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC367" x="5.08" y="-10.16" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC368" x="5.08" y="-11.43" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC369" x="6.35" y="11.43" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC370" x="6.35" y="10.16" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC371" x="6.35" y="8.89" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC372" x="6.35" y="7.62" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC373" x="6.35" y="6.35" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC374" x="6.35" y="5.08" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC375" x="6.35" y="3.81" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC376" x="6.35" y="2.54" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC377" x="6.35" y="1.27" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC378" x="6.35" y="0" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC379" x="6.35" y="-1.27" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC380" x="6.35" y="-2.54" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC381" x="6.35" y="-3.81" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC382" x="6.35" y="-5.08" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC383" x="6.35" y="-6.35" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC384" x="6.35" y="-7.62" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC385" x="6.35" y="-8.89" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC386" x="6.35" y="-10.16" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC387" x="6.35" y="-11.43" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC388" x="7.62" y="11.43" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC389" x="7.62" y="10.16" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC390" x="7.62" y="8.89" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC391" x="7.62" y="7.62" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC392" x="7.62" y="6.35" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC393" x="7.62" y="5.08" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC394" x="7.62" y="3.81" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC395" x="7.62" y="2.54" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC396" x="7.62" y="1.27" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC397" x="7.62" y="0" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC398" x="7.62" y="-1.27" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC399" x="7.62" y="-2.54" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC400" x="7.62" y="-3.81" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC401" x="7.62" y="-5.08" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC402" x="7.62" y="-6.35" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC403" x="7.62" y="-7.62" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC404" x="7.62" y="-8.89" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC405" x="7.62" y="-10.16" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC406" x="7.62" y="-11.43" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC407" x="8.89" y="11.43" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC408" x="8.89" y="10.16" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC409" x="8.89" y="8.89" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC410" x="8.89" y="7.62" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC411" x="8.89" y="6.35" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC412" x="8.89" y="5.08" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC413" x="8.89" y="3.81" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC414" x="8.89" y="2.54" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC415" x="8.89" y="1.27" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC416" x="8.89" y="0" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC417" x="8.89" y="-1.27" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC418" x="8.89" y="-2.54" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC419" x="8.89" y="-3.81" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC420" x="8.89" y="-5.08" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC421" x="8.89" y="-6.35" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC422" x="8.89" y="-7.62" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC423" x="8.89" y="-8.89" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC424" x="8.89" y="-10.16" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC425" x="8.89" y="-11.43" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC426" x="10.16" y="11.43" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC427" x="10.16" y="10.16" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC428" x="10.16" y="8.89" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC429" x="10.16" y="7.62" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC430" x="10.16" y="6.35" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC431" x="10.16" y="5.08" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC432" x="10.16" y="3.81" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC433" x="10.16" y="2.54" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC434" x="10.16" y="1.27" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC435" x="10.16" y="0" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC436" x="10.16" y="-1.27" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC437" x="10.16" y="-2.54" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC438" x="10.16" y="-3.81" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC439" x="10.16" y="-5.08" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC440" x="10.16" y="-6.35" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC441" x="10.16" y="-7.62" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC442" x="10.16" y="-8.89" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC443" x="10.16" y="-10.16" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC444" x="10.16" y="-11.43" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC445" x="11.43" y="11.43" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC446" x="11.43" y="10.16" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC447" x="11.43" y="8.89" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC448" x="11.43" y="7.62" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC449" x="11.43" y="6.35" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC450" x="11.43" y="5.08" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC451" x="11.43" y="3.81" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC452" x="11.43" y="2.54" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC453" x="11.43" y="1.27" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC454" x="11.43" y="0" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC455" x="11.43" y="-1.27" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC456" x="11.43" y="-2.54" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC457" x="11.43" y="-3.81" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC458" x="11.43" y="-5.08" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC459" x="11.43" y="-6.35" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC460" x="11.43" y="-7.62" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC461" x="11.43" y="-8.89" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC462" x="11.43" y="-10.16" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC463" x="11.43" y="-11.43" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC464" x="12.7" y="11.43" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC465" x="12.7" y="10.16" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC466" x="12.7" y="8.89" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC467" x="12.7" y="7.62" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC468" x="12.7" y="6.35" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC469" x="12.7" y="5.08" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC470" x="12.7" y="3.81" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC471" x="12.7" y="2.54" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC472" x="12.7" y="1.27" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC473" x="12.7" y="0" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC474" x="12.7" y="-1.27" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC475" x="12.7" y="-2.54" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC476" x="12.7" y="-3.81" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC477" x="12.7" y="-5.08" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC478" x="12.7" y="-6.35" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC479" x="12.7" y="-7.62" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC480" x="12.7" y="-8.89" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC481" x="12.7" y="-10.16" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC482" x="12.7" y="-11.43" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC483" x="13.97" y="11.43" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC484" x="13.97" y="10.16" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC485" x="13.97" y="8.89" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC486" x="13.97" y="7.62" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC487" x="13.97" y="6.35" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC488" x="13.97" y="5.08" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC489" x="13.97" y="3.81" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC490" x="13.97" y="2.54" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC491" x="13.97" y="1.27" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC492" x="13.97" y="0" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC493" x="13.97" y="-1.27" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC494" x="13.97" y="-2.54" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC495" x="13.97" y="-3.81" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC496" x="13.97" y="-5.08" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC497" x="13.97" y="-6.35" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC498" x="13.97" y="-7.62" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC499" x="13.97" y="-8.89" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC500" x="13.97" y="-10.16" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC501" x="13.97" y="-11.43" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC502" x="15.24" y="11.43" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC503" x="15.24" y="10.16" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC504" x="15.24" y="8.89" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC505" x="15.24" y="7.62" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC506" x="15.24" y="6.35" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC507" x="15.24" y="5.08" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC508" x="15.24" y="3.81" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC509" x="15.24" y="2.54" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC510" x="15.24" y="1.27" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC511" x="15.24" y="0" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC512" x="15.24" y="-1.27" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC513" x="15.24" y="-2.54" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC514" x="15.24" y="-3.81" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC515" x="15.24" y="-5.08" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC516" x="15.24" y="-6.35" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC517" x="15.24" y="-7.62" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC518" x="15.24" y="-8.89" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC519" x="15.24" y="-10.16" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC520" x="15.24" y="-11.43" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC521" x="16.51" y="11.43" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC522" x="16.51" y="10.16" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC523" x="16.51" y="8.89" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC524" x="16.51" y="7.62" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC525" x="16.51" y="6.35" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC526" x="16.51" y="5.08" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC527" x="16.51" y="3.81" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC528" x="16.51" y="2.54" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC529" x="16.51" y="1.27" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC530" x="16.51" y="0" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC531" x="16.51" y="-1.27" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC532" x="16.51" y="-2.54" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC533" x="16.51" y="-3.81" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC534" x="16.51" y="-5.08" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC535" x="16.51" y="-6.35" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC536" x="16.51" y="-7.62" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC537" x="16.51" y="-8.89" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC538" x="16.51" y="-10.16" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC539" x="16.51" y="-11.43" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC540" x="16.51" y="17.78" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC541" x="17.78" y="16.51" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC542" x="17.78" y="15.24" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC543" x="17.78" y="13.97" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC544" x="17.78" y="12.7" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC545" x="17.78" y="11.43" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC546" x="17.78" y="10.16" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC547" x="17.78" y="8.89" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC548" x="17.78" y="7.62" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC549" x="17.78" y="6.35" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC550" x="17.78" y="5.08" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC551" x="17.78" y="3.81" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC552" x="17.78" y="2.54" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC553" x="17.78" y="1.27" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC554" x="17.78" y="0" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC555" x="17.78" y="-1.27" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC556" x="17.78" y="-2.54" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC557" x="17.78" y="-3.81" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC558" x="17.78" y="-5.08" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC559" x="17.78" y="-6.35" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC560" x="17.78" y="-7.62" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC561" x="17.78" y="-8.89" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC562" x="17.78" y="-10.16" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC563" x="17.78" y="-11.43" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC564" x="17.78" y="-12.7" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC565" x="17.78" y="-13.97" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC566" x="17.78" y="-15.24" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC567" x="17.78" y="-16.51" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<smd name="NC568" x="16.51" y="-17.78" dx="0.76" dy="0.76" layer="1" roundness="100"/>
+<rectangle x1="-27" y1="-28.08" x2="27" y2="36.22" layer="39"/>
+<wire x1="-21.1" y1="28" x2="-21.1" y2="30.3" width="0.127" layer="100"/>
+<wire x1="-18.7" y1="30.3" x2="-21.1" y2="30.3" width="0.127" layer="100"/>
+<wire x1="18.8" y1="30.3" x2="21.1" y2="30.3" width="0.127" layer="100"/>
+<wire x1="21.1" y1="27.9" x2="21.1" y2="30.3" width="0.127" layer="100"/>
+<wire x1="21.1" y1="-19.9" x2="21.1" y2="-22.2" width="0.127" layer="100"/>
+<wire x1="18.7" y1="-22.2" x2="21.1" y2="-22.2" width="0.127" layer="100"/>
+<wire x1="-18.8" y1="-22.2" x2="-21.1" y2="-22.2" width="0.127" layer="100"/>
+<wire x1="-21.1" y1="-19.8" x2="-21.1" y2="-22.2" width="0.127" layer="100"/>
+</package>
 </packages>
 <symbols>
 <symbol name="KAS-12040_LVDS_BANK">
@@ -1193,6 +2060,280 @@ The sensor ceramic footprint and active area (4000x3000 pixels) are drawn as wel
 </technologies>
 </device>
 <device name="-RB501T4" package="KAC-12040-RB501T4">
+<connects>
+<connect gate="_BANK0" pin="CLK_N" pad="AA02"/>
+<connect gate="_BANK0" pin="CLK_P" pad="AA01"/>
+<connect gate="_BANK0" pin="LVDS_0_N" pad="AB02"/>
+<connect gate="_BANK0" pin="LVDS_0_P" pad="AB01"/>
+<connect gate="_BANK0" pin="LVDS_1_N" pad="AC02"/>
+<connect gate="_BANK0" pin="LVDS_1_P" pad="AC01"/>
+<connect gate="_BANK0" pin="LVDS_2_N" pad="AD02"/>
+<connect gate="_BANK0" pin="LVDS_2_P" pad="AD01"/>
+<connect gate="_BANK0" pin="LVDS_3_N" pad="AD03"/>
+<connect gate="_BANK0" pin="LVDS_3_P" pad="AE03"/>
+<connect gate="_BANK0" pin="LVDS_4_N" pad="AD04"/>
+<connect gate="_BANK0" pin="LVDS_4_P" pad="AE04"/>
+<connect gate="_BANK0" pin="LVDS_5_N" pad="AD05"/>
+<connect gate="_BANK0" pin="LVDS_5_P" pad="AE05"/>
+<connect gate="_BANK0" pin="LVDS_6_N" pad="AD06"/>
+<connect gate="_BANK0" pin="LVDS_6_P" pad="AE06"/>
+<connect gate="_BANK1" pin="CLK_N" pad="E02"/>
+<connect gate="_BANK1" pin="CLK_P" pad="E01"/>
+<connect gate="_BANK1" pin="LVDS_0_N" pad="D02"/>
+<connect gate="_BANK1" pin="LVDS_0_P" pad="D01"/>
+<connect gate="_BANK1" pin="LVDS_1_N" pad="C02"/>
+<connect gate="_BANK1" pin="LVDS_1_P" pad="C01"/>
+<connect gate="_BANK1" pin="LVDS_2_N" pad="B02"/>
+<connect gate="_BANK1" pin="LVDS_2_P" pad="B01"/>
+<connect gate="_BANK1" pin="LVDS_3_N" pad="B03"/>
+<connect gate="_BANK1" pin="LVDS_3_P" pad="A03"/>
+<connect gate="_BANK1" pin="LVDS_4_N" pad="B04"/>
+<connect gate="_BANK1" pin="LVDS_4_P" pad="A04"/>
+<connect gate="_BANK1" pin="LVDS_5_N" pad="B05"/>
+<connect gate="_BANK1" pin="LVDS_5_P" pad="A05"/>
+<connect gate="_BANK1" pin="LVDS_6_N" pad="B06"/>
+<connect gate="_BANK1" pin="LVDS_6_P" pad="A06"/>
+<connect gate="_BANK2" pin="CLK_N" pad="AC08"/>
+<connect gate="_BANK2" pin="CLK_P" pad="AC07"/>
+<connect gate="_BANK2" pin="LVDS_0_N" pad="AD07"/>
+<connect gate="_BANK2" pin="LVDS_0_P" pad="AE07"/>
+<connect gate="_BANK2" pin="LVDS_1_N" pad="AD08"/>
+<connect gate="_BANK2" pin="LVDS_1_P" pad="AE08"/>
+<connect gate="_BANK2" pin="LVDS_2_N" pad="AD09"/>
+<connect gate="_BANK2" pin="LVDS_2_P" pad="AE09"/>
+<connect gate="_BANK2" pin="LVDS_3_N" pad="AD10"/>
+<connect gate="_BANK2" pin="LVDS_3_P" pad="AE10"/>
+<connect gate="_BANK2" pin="LVDS_4_N" pad="AD11"/>
+<connect gate="_BANK2" pin="LVDS_4_P" pad="AE11"/>
+<connect gate="_BANK2" pin="LVDS_5_N" pad="AD12"/>
+<connect gate="_BANK2" pin="LVDS_5_P" pad="AE12"/>
+<connect gate="_BANK2" pin="LVDS_6_N" pad="AD13"/>
+<connect gate="_BANK2" pin="LVDS_6_P" pad="AE13"/>
+<connect gate="_BANK3" pin="CLK_N" pad="C08"/>
+<connect gate="_BANK3" pin="CLK_P" pad="C07"/>
+<connect gate="_BANK3" pin="LVDS_0_N" pad="B07"/>
+<connect gate="_BANK3" pin="LVDS_0_P" pad="A07"/>
+<connect gate="_BANK3" pin="LVDS_1_N" pad="B08"/>
+<connect gate="_BANK3" pin="LVDS_1_P" pad="A08"/>
+<connect gate="_BANK3" pin="LVDS_2_N" pad="B09"/>
+<connect gate="_BANK3" pin="LVDS_2_P" pad="A09"/>
+<connect gate="_BANK3" pin="LVDS_3_N" pad="B10"/>
+<connect gate="_BANK3" pin="LVDS_3_P" pad="A10"/>
+<connect gate="_BANK3" pin="LVDS_4_N" pad="B11"/>
+<connect gate="_BANK3" pin="LVDS_4_P" pad="A11"/>
+<connect gate="_BANK3" pin="LVDS_5_N" pad="B12"/>
+<connect gate="_BANK3" pin="LVDS_5_P" pad="A12"/>
+<connect gate="_BANK3" pin="LVDS_6_N" pad="B13"/>
+<connect gate="_BANK3" pin="LVDS_6_P" pad="A13"/>
+<connect gate="_BANK4" pin="CLK_N" pad="AC16"/>
+<connect gate="_BANK4" pin="CLK_P" pad="AC15"/>
+<connect gate="_BANK4" pin="LVDS_0_N" pad="AD15"/>
+<connect gate="_BANK4" pin="LVDS_0_P" pad="AE15"/>
+<connect gate="_BANK4" pin="LVDS_1_N" pad="AD16"/>
+<connect gate="_BANK4" pin="LVDS_1_P" pad="AE16"/>
+<connect gate="_BANK4" pin="LVDS_2_N" pad="AD17"/>
+<connect gate="_BANK4" pin="LVDS_2_P" pad="AE17"/>
+<connect gate="_BANK4" pin="LVDS_3_N" pad="AD18"/>
+<connect gate="_BANK4" pin="LVDS_3_P" pad="AE18"/>
+<connect gate="_BANK4" pin="LVDS_4_N" pad="AD19"/>
+<connect gate="_BANK4" pin="LVDS_4_P" pad="AE19"/>
+<connect gate="_BANK4" pin="LVDS_5_N" pad="AD20"/>
+<connect gate="_BANK4" pin="LVDS_5_P" pad="AE20"/>
+<connect gate="_BANK4" pin="LVDS_6_N" pad="AD21"/>
+<connect gate="_BANK4" pin="LVDS_6_P" pad="AE21"/>
+<connect gate="_BANK5" pin="CLK_N" pad="C16"/>
+<connect gate="_BANK5" pin="CLK_P" pad="C15"/>
+<connect gate="_BANK5" pin="LVDS_0_N" pad="B15"/>
+<connect gate="_BANK5" pin="LVDS_0_P" pad="A15"/>
+<connect gate="_BANK5" pin="LVDS_1_N" pad="B16"/>
+<connect gate="_BANK5" pin="LVDS_1_P" pad="A16"/>
+<connect gate="_BANK5" pin="LVDS_2_N" pad="B17"/>
+<connect gate="_BANK5" pin="LVDS_2_P" pad="A17"/>
+<connect gate="_BANK5" pin="LVDS_3_N" pad="B18"/>
+<connect gate="_BANK5" pin="LVDS_3_P" pad="A18"/>
+<connect gate="_BANK5" pin="LVDS_4_N" pad="B19"/>
+<connect gate="_BANK5" pin="LVDS_4_P" pad="A19"/>
+<connect gate="_BANK5" pin="LVDS_5_N" pad="B20"/>
+<connect gate="_BANK5" pin="LVDS_5_P" pad="A20"/>
+<connect gate="_BANK5" pin="LVDS_6_N" pad="B21"/>
+<connect gate="_BANK5" pin="LVDS_6_P" pad="A21"/>
+<connect gate="_BANK6" pin="CLK_N" pad="AD22"/>
+<connect gate="_BANK6" pin="CLK_P" pad="AE22"/>
+<connect gate="_BANK6" pin="LVDS_0_N" pad="AD23"/>
+<connect gate="_BANK6" pin="LVDS_0_P" pad="AE23"/>
+<connect gate="_BANK6" pin="LVDS_1_N" pad="AD24"/>
+<connect gate="_BANK6" pin="LVDS_1_P" pad="AE24"/>
+<connect gate="_BANK6" pin="LVDS_2_N" pad="AD25"/>
+<connect gate="_BANK6" pin="LVDS_2_P" pad="AE25"/>
+<connect gate="_BANK6" pin="LVDS_3_N" pad="AD27"/>
+<connect gate="_BANK6" pin="LVDS_3_P" pad="AD26"/>
+<connect gate="_BANK6" pin="LVDS_4_N" pad="AC27"/>
+<connect gate="_BANK6" pin="LVDS_4_P" pad="AC26"/>
+<connect gate="_BANK6" pin="LVDS_5_N" pad="AB27"/>
+<connect gate="_BANK6" pin="LVDS_5_P" pad="AB26"/>
+<connect gate="_BANK6" pin="LVDS_6_N" pad="AA27"/>
+<connect gate="_BANK6" pin="LVDS_6_P" pad="AA26"/>
+<connect gate="_BANK7" pin="CLK_N" pad="B22"/>
+<connect gate="_BANK7" pin="CLK_P" pad="A22"/>
+<connect gate="_BANK7" pin="LVDS_0_N" pad="B23"/>
+<connect gate="_BANK7" pin="LVDS_0_P" pad="A23"/>
+<connect gate="_BANK7" pin="LVDS_1_N" pad="B24"/>
+<connect gate="_BANK7" pin="LVDS_1_P" pad="A24"/>
+<connect gate="_BANK7" pin="LVDS_2_N" pad="B25"/>
+<connect gate="_BANK7" pin="LVDS_2_P" pad="A25"/>
+<connect gate="_BANK7" pin="LVDS_3_N" pad="B26"/>
+<connect gate="_BANK7" pin="LVDS_3_P" pad="B27"/>
+<connect gate="_BANK7" pin="LVDS_4_N" pad="C26"/>
+<connect gate="_BANK7" pin="LVDS_4_P" pad="C27"/>
+<connect gate="_BANK7" pin="LVDS_5_N" pad="D26"/>
+<connect gate="_BANK7" pin="LVDS_5_P" pad="D27"/>
+<connect gate="_BANK7" pin="LVDS_6_N" pad="E26"/>
+<connect gate="_BANK7" pin="LVDS_6_P" pad="E27"/>
+<connect gate="_CTRL" pin="CLK_IN_1@E07" pad="E07"/>
+<connect gate="_CTRL" pin="CLK_IN_2@D08" pad="D08"/>
+<connect gate="_CTRL" pin="SYS_RESET_N@AB09" pad="AB09"/>
+<connect gate="_CTRL" pin="TRIGGER@AB08" pad="AB08"/>
+<connect gate="_DIGOUT" pin="FLASH_OUT@AB06" pad="AB06"/>
+<connect gate="_DIGOUT" pin="FRAME_EN_OUT@E05" pad="E05"/>
+<connect gate="_DIGOUT" pin="LINE_EN_OUT@E06" pad="E06"/>
+<connect gate="_DIGOUT" pin="MECH_SHUT_OUT@AB07" pad="AB07"/>
+<connect gate="_MISC" pin="ADC_REF_1@AA14" pad="AA14"/>
+<connect gate="_MISC" pin="ADC_REF_2@AA15" pad="AA15"/>
+<connect gate="_MISC" pin="BYPASS_REF@AA16" pad="AA16"/>
+<connect gate="_MISC" pin="SCAN_MODE_1@D05" pad="D05"/>
+<connect gate="_MISC" pin="SCAN_MODE_2@D06" pad="D06"/>
+<connect gate="_MISC" pin="SCAN_MODE_3@D07" pad="D07"/>
+<connect gate="_MISC" pin="TEST1@C09" pad="C09"/>
+<connect gate="_MISC" pin="TEST2@D09" pad="D09"/>
+<connect gate="_MISC" pin="VCAL1@E15" pad="E15"/>
+<connect gate="_MISC" pin="VCAL2@D15" pad="D15"/>
+<connect gate="_MISC" pin="VLR_MN@AA09" pad="AA09"/>
+<connect gate="_MISC" pin="VLR_PH@E09" pad="E09"/>
+<connect gate="_NC" pin="NC@A01" pad="A01"/>
+<connect gate="_NC" pin="NC@AB05" pad="AB05"/>
+<connect gate="_NC" pin="NC@AC09" pad="AC09"/>
+<connect gate="_NC" pin="NC@E14" pad="E14"/>
+<connect gate="_NC" pin="NC@E16" pad="E16"/>
+<connect gate="_PWR_DIG" pin="VDDO@AB15" pad="AB15"/>
+<connect gate="_PWR_DIG" pin="VDD_DIG@AA18" pad="AA18"/>
+<connect gate="_PWR_DIG" pin="VDD_DIG@AA20" pad="AA20"/>
+<connect gate="_PWR_DIG" pin="VDD_DIG@AA21" pad="AA21"/>
+<connect gate="_PWR_DIG" pin="VDD_DIG@AA22" pad="AA22"/>
+<connect gate="_PWR_DIG" pin="VDD_DIG@AB18" pad="AB18"/>
+<connect gate="_PWR_DIG" pin="VDD_DIG@AB19" pad="AB19"/>
+<connect gate="_PWR_DIG" pin="VDD_DIG@AB20" pad="AB20"/>
+<connect gate="_PWR_DIG" pin="VDD_DIG@AB21" pad="AB21"/>
+<connect gate="_PWR_DIG" pin="VDD_DIG@AB22" pad="AB22"/>
+<connect gate="_PWR_DIG" pin="VDD_DIG@AB23" pad="AB23"/>
+<connect gate="_PWR_DIG" pin="VDD_DIG@AC18" pad="AC18"/>
+<connect gate="_PWR_DIG" pin="VDD_DIG@AC19" pad="AC19"/>
+<connect gate="_PWR_DIG" pin="VDD_DIG@AC20" pad="AC20"/>
+<connect gate="_PWR_DIG" pin="VDD_DIG@AC21" pad="AC21"/>
+<connect gate="_PWR_DIG" pin="VDD_DIG@AC22" pad="AC22"/>
+<connect gate="_PWR_DIG" pin="VDD_DIG@C18" pad="C18"/>
+<connect gate="_PWR_DIG" pin="VDD_DIG@C19" pad="C19"/>
+<connect gate="_PWR_DIG" pin="VDD_DIG@C20" pad="C20"/>
+<connect gate="_PWR_DIG" pin="VDD_DIG@C21" pad="C21"/>
+<connect gate="_PWR_DIG" pin="VDD_DIG@C22" pad="C22"/>
+<connect gate="_PWR_DIG" pin="VDD_DIG@D18" pad="D18"/>
+<connect gate="_PWR_DIG" pin="VDD_DIG@D19" pad="D19"/>
+<connect gate="_PWR_DIG" pin="VDD_DIG@D20" pad="D20"/>
+<connect gate="_PWR_DIG" pin="VDD_DIG@D21" pad="D21"/>
+<connect gate="_PWR_DIG" pin="VDD_DIG@D22" pad="D22"/>
+<connect gate="_PWR_DIG" pin="VDD_DIG@D23" pad="D23"/>
+<connect gate="_PWR_DIG" pin="VDD_DIG@E18" pad="E18"/>
+<connect gate="_PWR_DIG" pin="VDD_DIG@E20" pad="E20"/>
+<connect gate="_PWR_DIG" pin="VDD_DIG@E21" pad="E21"/>
+<connect gate="_PWR_DIG" pin="VDD_DIG@E22" pad="E22"/>
+<connect gate="_PWR_DIG" pin="VDD_PLL@E08" pad="E08"/>
+<connect gate="_PWR_DIG" pin="VSS_DIG@A02" pad="A02"/>
+<connect gate="_PWR_DIG" pin="VSS_DIG@A14" pad="A14"/>
+<connect gate="_PWR_DIG" pin="VSS_DIG@A26" pad="A26"/>
+<connect gate="_PWR_DIG" pin="VSS_DIG@AA03" pad="AA03"/>
+<connect gate="_PWR_DIG" pin="VSS_DIG@AA19" pad="AA19"/>
+<connect gate="_PWR_DIG" pin="VSS_DIG@AA23" pad="AA23"/>
+<connect gate="_PWR_DIG" pin="VSS_DIG@AA25" pad="AA25"/>
+<connect gate="_PWR_DIG" pin="VSS_DIG@AB03" pad="AB03"/>
+<connect gate="_PWR_DIG" pin="VSS_DIG@AB25" pad="AB25"/>
+<connect gate="_PWR_DIG" pin="VSS_DIG@AC03" pad="AC03"/>
+<connect gate="_PWR_DIG" pin="VSS_DIG@AC06" pad="AC06"/>
+<connect gate="_PWR_DIG" pin="VSS_DIG@AC25" pad="AC25"/>
+<connect gate="_PWR_DIG" pin="VSS_DIG@AD14" pad="AD14"/>
+<connect gate="_PWR_DIG" pin="VSS_DIG@AE02" pad="AE02"/>
+<connect gate="_PWR_DIG" pin="VSS_DIG@AE14" pad="AE14"/>
+<connect gate="_PWR_DIG" pin="VSS_DIG@AE26" pad="AE26"/>
+<connect gate="_PWR_DIG" pin="VSS_DIG@B14" pad="B14"/>
+<connect gate="_PWR_DIG" pin="VSS_DIG@C03" pad="C03"/>
+<connect gate="_PWR_DIG" pin="VSS_DIG@C06" pad="C06"/>
+<connect gate="_PWR_DIG" pin="VSS_DIG@C25" pad="C25"/>
+<connect gate="_PWR_DIG" pin="VSS_DIG@D03" pad="D03"/>
+<connect gate="_PWR_DIG" pin="VSS_DIG@D25" pad="D25"/>
+<connect gate="_PWR_DIG" pin="VSS_DIG@E03" pad="E03"/>
+<connect gate="_PWR_DIG" pin="VSS_DIG@E19" pad="E19"/>
+<connect gate="_PWR_DIG" pin="VSS_DIG@E23" pad="E23"/>
+<connect gate="_PWR_DIG" pin="VSS_DIG@E25" pad="E25"/>
+<connect gate="_PWR_LVDS" pin="VDD_LVDS@AA04" pad="AA04"/>
+<connect gate="_PWR_LVDS" pin="VDD_LVDS@AA24" pad="AA24"/>
+<connect gate="_PWR_LVDS" pin="VDD_LVDS@AB04" pad="AB04"/>
+<connect gate="_PWR_LVDS" pin="VDD_LVDS@AB24" pad="AB24"/>
+<connect gate="_PWR_LVDS" pin="VDD_LVDS@AC04" pad="AC04"/>
+<connect gate="_PWR_LVDS" pin="VDD_LVDS@AC05" pad="AC05"/>
+<connect gate="_PWR_LVDS" pin="VDD_LVDS@AC23" pad="AC23"/>
+<connect gate="_PWR_LVDS" pin="VDD_LVDS@AC24" pad="AC24"/>
+<connect gate="_PWR_LVDS" pin="VDD_LVDS@C04" pad="C04"/>
+<connect gate="_PWR_LVDS" pin="VDD_LVDS@C05" pad="C05"/>
+<connect gate="_PWR_LVDS" pin="VDD_LVDS@C23" pad="C23"/>
+<connect gate="_PWR_LVDS" pin="VDD_LVDS@C24" pad="C24"/>
+<connect gate="_PWR_LVDS" pin="VDD_LVDS@D04" pad="D04"/>
+<connect gate="_PWR_LVDS" pin="VDD_LVDS@D24" pad="D24"/>
+<connect gate="_PWR_LVDS" pin="VDD_LVDS@E04" pad="E04"/>
+<connect gate="_PWR_LVDS" pin="VDD_LVDS@E24" pad="E24"/>
+<connect gate="_PWR_PIXEL" pin="AVDDHV@AA10" pad="AA10"/>
+<connect gate="_PWR_PIXEL" pin="AVDDHV@AA11" pad="AA11"/>
+<connect gate="_PWR_PIXEL" pin="AVDDHV@AB10" pad="AB10"/>
+<connect gate="_PWR_PIXEL" pin="AVDDHV@AB11" pad="AB11"/>
+<connect gate="_PWR_PIXEL" pin="AVDDHV@AC10" pad="AC10"/>
+<connect gate="_PWR_PIXEL" pin="AVDDHV@AC11" pad="AC11"/>
+<connect gate="_PWR_PIXEL" pin="AVDDHV@C10" pad="C10"/>
+<connect gate="_PWR_PIXEL" pin="AVDDHV@C11" pad="C11"/>
+<connect gate="_PWR_PIXEL" pin="AVDDHV@D10" pad="D10"/>
+<connect gate="_PWR_PIXEL" pin="AVDDHV@D11" pad="D11"/>
+<connect gate="_PWR_PIXEL" pin="AVDDHV@E10" pad="E10"/>
+<connect gate="_PWR_PIXEL" pin="AVDDHV@E11" pad="E11"/>
+<connect gate="_PWR_PIXEL" pin="AVDDLV@AA17" pad="AA17"/>
+<connect gate="_PWR_PIXEL" pin="AVDDLV@AB16" pad="AB16"/>
+<connect gate="_PWR_PIXEL" pin="AVDDLV@AB17" pad="AB17"/>
+<connect gate="_PWR_PIXEL" pin="AVDDLV@AC17" pad="AC17"/>
+<connect gate="_PWR_PIXEL" pin="AVDDLV@C17" pad="C17"/>
+<connect gate="_PWR_PIXEL" pin="AVDDLV@D16" pad="D16"/>
+<connect gate="_PWR_PIXEL" pin="AVDDLV@D17" pad="D17"/>
+<connect gate="_PWR_PIXEL" pin="AVDDLV@E17" pad="E17"/>
+<connect gate="_PWR_PIXEL" pin="AVSSHV@AA12" pad="AA12"/>
+<connect gate="_PWR_PIXEL" pin="AVSSHV@AB12" pad="AB12"/>
+<connect gate="_PWR_PIXEL" pin="AVSSHV@AB14" pad="AB14"/>
+<connect gate="_PWR_PIXEL" pin="AVSSHV@AC12" pad="AC12"/>
+<connect gate="_PWR_PIXEL" pin="AVSSHV@AC14" pad="AC14"/>
+<connect gate="_PWR_PIXEL" pin="AVSSHV@C12" pad="C12"/>
+<connect gate="_PWR_PIXEL" pin="AVSSHV@C14" pad="C14"/>
+<connect gate="_PWR_PIXEL" pin="AVSSHV@D12" pad="D12"/>
+<connect gate="_PWR_PIXEL" pin="AVSSHV@D14" pad="D14"/>
+<connect gate="_PWR_PIXEL" pin="AVSSHV@E12" pad="E12"/>
+<connect gate="_PWR_PIXEL" pin="VREFP@AA13" pad="AA13"/>
+<connect gate="_PWR_PIXEL" pin="VREFP@AB13" pad="AB13"/>
+<connect gate="_PWR_PIXEL" pin="VREFP@AC13" pad="AC13"/>
+<connect gate="_PWR_PIXEL" pin="VREFP@C13" pad="C13"/>
+<connect gate="_PWR_PIXEL" pin="VREFP@D13" pad="D13"/>
+<connect gate="_PWR_PIXEL" pin="VREFP@E13" pad="E13"/>
+<connect gate="_SPI" pin="SPI_CLK@AA05" pad="AA05"/>
+<connect gate="_SPI" pin="SPI_EN@AA06" pad="AA06"/>
+<connect gate="_SPI" pin="SPI_IN@AA08" pad="AA08"/>
+<connect gate="_SPI" pin="SPI_OUT@AA07" pad="AA07"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="FOXCONN-754" package="FOXCONN-754">
 <connects>
 <connect gate="_BANK0" pin="CLK_N" pad="AA02"/>
 <connect gate="_BANK0" pin="CLK_P" pad="AA01"/>

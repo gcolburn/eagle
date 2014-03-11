@@ -1446,7 +1446,7 @@ The sensor ceramic footprint and active area (4000x3000 pixels) are drawn as wel
 <smd name="NC566" x="17.78" y="-15.24" dx="0.76" dy="0.76" layer="1" roundness="100"/>
 <smd name="NC567" x="17.78" y="-16.51" dx="0.76" dy="0.76" layer="1" roundness="100"/>
 <smd name="NC568" x="16.51" y="-17.78" dx="0.76" dy="0.76" layer="1" roundness="100"/>
-<rectangle x1="-27" y1="-28.08" x2="27" y2="36.22" layer="39"/>
+<rectangle x1="-27" y1="-28.08" x2="-5.25" y2="36.22" layer="39"/>
 <wire x1="-21.1" y1="28" x2="-21.1" y2="30.3" width="0.127" layer="100"/>
 <wire x1="-18.7" y1="30.3" x2="-21.1" y2="30.3" width="0.127" layer="100"/>
 <wire x1="18.8" y1="30.3" x2="21.1" y2="30.3" width="0.127" layer="100"/>
@@ -1462,6 +1462,15 @@ The sensor ceramic footprint and active area (4000x3000 pixels) are drawn as wel
 <wire x1="-21" y1="21.72" x2="21" y2="21.72" width="0.127" layer="48"/>
 <text x="-11.43" y="25.4" size="1.778" layer="48">MAX SOCKET HEIGHT</text>
 <wire x1="-21" y1="20.82" x2="21" y2="20.82" width="0.127" layer="48"/>
+<rectangle x1="-27" y1="-28.08" x2="-5.25" y2="36.22" layer="39"/>
+<rectangle x1="5.25" y1="-28.08" x2="27" y2="36.22" layer="39"/>
+<rectangle x1="5.25" y1="-28.08" x2="27" y2="36.22" layer="39"/>
+<rectangle x1="-5.25" y1="5.5" x2="5.25" y2="36.22" layer="39"/>
+<rectangle x1="-5.25" y1="-28.08" x2="5.25" y2="-5.5" layer="39"/>
+<wire x1="21.59" y1="30.48" x2="21.59" y2="-23.58" width="0.127" layer="48"/>
+<wire x1="21.59" y1="-23.58" x2="23.59" y2="-23.58" width="0.127" layer="48"/>
+<wire x1="23.59" y1="-23.58" x2="23.59" y2="30.48" width="0.127" layer="48"/>
+<wire x1="23.59" y1="30.48" x2="21.59" y2="30.48" width="0.127" layer="48"/>
 </package>
 </packages>
 <symbols>
